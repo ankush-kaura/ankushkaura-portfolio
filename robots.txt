@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.ankushkaura.in/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Disallow common non-content paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_astro/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Allow important pages
+Allow: /
+Allow: /portfolio
+Allow: /blogs
+Allow: /work
+Allow: /blog/
