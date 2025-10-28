@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ankush Kaura - Full-Stack Developer</title>
+    <description>Full-Stack Developer & Digital Solutions Architect. Blog posts on web development, programming, and technology.</description>
+    <link>https://www.ankushkaura.in</link>
+    <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Oct 2025 10:48:38 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Lessons Learned from 7+ Years in Web & App Development]]></title>
+      <description><![CDATA[Working in web and app development for over seven years has been an exciting rollercoaster — full of bugs, breakthroughs, and a lot of “aha!” moments. From writing my first line of code to leading complex full-stack projects, every phase has taught me something valuable. Here are some of the biggest lessons I’ve learned that might help both beginners and professionals in their own journeys.]]></description>
+      <link>https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development</guid>
+      <pubDate>Sun, 26 Oct 2025 18:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Building Scalable Full-Stack Apps with Node.js + React.js]]></title>
+      <description><![CDATA[In today’s world of web apps and mobile apps, users expect things to be fast, smooth, and reliable no matter how many people use them. To build that kind of app you often need a full-stack setup: frontend (what the user sees) + backend (what the server does) + database/storage + scaling. In this blog we’ll talk about using Node.js (for the backend) and React.js (for the frontend) to build apps which are scalable (i.e., can handle growth) and user-friendly.]]></description>
+      <link>https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs</guid>
+      <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[REST vs GraphQL: Choosing the Right API Design]]></title>
+      <description><![CDATA[When building websites, mobile apps or any services that talk to a server, your application needs a way to fetch or update data. In tech‐speak this is done via an API (Application Programming Interface). But there’s more than one way to build an API. Two of the most popular approaches today are REST and GraphQL.]]></description>
+      <link>https://www.ankushkaura.in/blog/rest-vs-graphql</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/rest-vs-graphql</guid>
+      <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Why Is AI Design Bad ?]]></title>
+      <description><![CDATA[AI design tools are everywhere now. If you’re a designer, you’ve probably used a handful of them to erase a background, clean up a layer stack, or power through a tedious round of resizing. Some features genuinely speed things up, but a lot of the biggest “design for you” promises bring way more clutter than insight. Let’s break down why design is so hard for AI and where it can actually help.
+
+The design challenge AI hasn’t solved (yet)
+AI’s sweet spot is anything that runs on clear rules.]]></description>
+      <link>https://www.ankushkaura.in/blog/why-is-ai-design-bad</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/why-is-ai-design-bad</guid>
+      <pubDate>Thu, 23 Oct 2025 18:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

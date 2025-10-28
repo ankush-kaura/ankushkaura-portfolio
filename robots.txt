@@ -11,8 +11,6 @@ Crawl-delay: 1
 Disallow: /admin/
 Disallow: /api/
 Disallow: /_astro/
-Disallow: /*.json$
-Disallow: /*?*
 
 # Allow important pages
 Allow: /
