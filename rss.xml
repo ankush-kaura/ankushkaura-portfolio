@@ -6,7 +6,14 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Dec 2025 08:00:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 13:31:00 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Single Sign-On vs “Login with Google”: What Really Happens When You Delete Your Google Account]]></title>
+      <description><![CDATA[Most of us click “Continue with Google” without thinking twice. It’s fast. It’s convenient. It feels safe.]]></description>
+      <link>https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account</guid>
+      <pubDate>Thu, 15 Jan 2026 18:30:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[Build and Use Mistral Vibe — The CLI Coding Assistant]]></title>
       <description><![CDATA[Mistral Vibe is a modern command-line coding assistant that lets you query, explore, and modify your codebase using natural language right in the terminal. It’s like having a smart junior dev that lives in your shell and understands your whole repo.In this walkthrough, we’ll break down how to set it up, configure it, and start using it — so you can share this on your blog with no fluff and all the practicals.]]></description>
@@ -43,17 +50,17 @@
       <pubDate>Sun, 26 Oct 2025 18:30:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[REST vs GraphQL: Choosing the Right API Design]]></title>
-      <description><![CDATA[When building websites, mobile apps or any services that talk to a server, your application needs a way to fetch or update data. In tech‐speak this is done via an API (Application Programming Interface). But there’s more than one way to build an API. Two of the most popular approaches today are REST and GraphQL.]]></description>
-      <link>https://www.ankushkaura.in/blog/rest-vs-graphql</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/rest-vs-graphql</guid>
-      <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
-    </item>
-    <item>
       <title><![CDATA[Building Scalable Full-Stack Apps with Node.js + React.js]]></title>
       <description><![CDATA[In today’s world of web apps and mobile apps, users expect things to be fast, smooth, and reliable no matter how many people use them. To build that kind of app you often need a full-stack setup: frontend (what the user sees) + backend (what the server does) + database/storage + scaling. In this blog we’ll talk about using Node.js (for the backend) and React.js (for the frontend) to build apps which are scalable (i.e., can handle growth) and user-friendly.]]></description>
       <link>https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs</link>
       <guid isPermaLink="true">https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs</guid>
+      <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[REST vs GraphQL: Choosing the Right API Design]]></title>
+      <description><![CDATA[When building websites, mobile apps or any services that talk to a server, your application needs a way to fetch or update data. In tech‐speak this is done via an API (Application Programming Interface). But there’s more than one way to build an API. Two of the most popular approaches today are REST and GraphQL.]]></description>
+      <link>https://www.ankushkaura.in/blog/rest-vs-graphql</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/rest-vs-graphql</guid>
       <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
     </item>
     <item>
