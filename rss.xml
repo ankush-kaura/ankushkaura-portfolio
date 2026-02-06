@@ -6,7 +6,15 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jan 2026 13:31:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 13:04:25 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[How a 3D Printer With AI Became the MVP of My Server Management Stack]]></title>
+      <description><![CDATA[Running infrastructure feels like a full-contact sport. One bad outage and your SLAs go up in flames. Scaling never happens when you want it to. And hardware failures? They love showing up at 3 AM like they’re doing you a favor. I hit a point where I needed a real shift — not another dashboard with neon graphs, but an actual co-pilot for ops.
+]]></description>
+      <link>https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack</guid>
+      <pubDate>Wed, 04 Feb 2026 18:30:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[Single Sign-On vs “Login with Google”: What Really Happens When You Delete Your Google Account]]></title>
       <description><![CDATA[Most of us click “Continue with Google” without thinking twice. It’s fast. It’s convenient. It feels safe.]]></description>
