@@ -6,7 +6,16 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Feb 2026 13:08:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 13:34:15 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Do not give up your brain]]></title>
+      <description><![CDATA[I do use AI for work, and often shill AI for work, and use it often on side projects.
+
+That being said, I really care about using AI as a tool, rather than a replacement for my own thoughts and ideas. I think it’s very important to not default to laziness and just asking for the answer to something, especially when thinking a liiiiittle bit can get you there.]]></description>
+      <link>https://www.ankushkaura.in/blog/do-not-give-up-your-brain</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/do-not-give-up-your-brain</guid>
+      <pubDate>Thu, 05 Feb 2026 18:30:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[How a 3D Printer With AI Became the MVP of My Server Management Stack]]></title>
       <description><![CDATA[Running infrastructure feels like a full-contact sport. One bad outage and your SLAs go up in flames. Scaling never happens when you want it to. And hardware failures? They love showing up at 3 AM like they’re doing you a favor. I hit a point where I needed a real shift not another dashboard with neon graphs, but an actual co-pilot for ops.

@@ -2,27 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.ankushkaura.in</loc>
-    <lastmod>2026-02-06T13:08:19.091Z</lastmod>
+    <lastmod>2026-02-06T13:34:15.916Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/portfolio</loc>
-    <lastmod>2026-02-06T13:08:19.091Z</lastmod>
+    <lastmod>2026-02-06T13:34:15.916Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blogs</loc>
-    <lastmod>2026-02-06T13:08:19.091Z</lastmod>
+    <lastmod>2026-02-06T13:34:15.916Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/work</loc>
-    <lastmod>2026-02-06T13:08:19.091Z</lastmod>
+    <lastmod>2026-02-06T13:34:15.916Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/do-not-give-up-your-brain</loc>
+    <lastmod>2026-02-06T13:33:41.574Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack</loc>
