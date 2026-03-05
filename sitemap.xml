@@ -2,27 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.ankushkaura.in</loc>
-    <lastmod>2026-02-23T05:52:53.513Z</lastmod>
+    <lastmod>2026-03-05T18:19:39.143Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/portfolio</loc>
-    <lastmod>2026-02-23T05:52:53.513Z</lastmod>
+    <lastmod>2026-03-05T18:19:39.143Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blogs</loc>
-    <lastmod>2026-02-23T05:52:53.513Z</lastmod>
+    <lastmod>2026-03-05T18:19:39.143Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/work</loc>
-    <lastmod>2026-02-23T05:52:53.513Z</lastmod>
+    <lastmod>2026-03-05T18:19:39.143Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/from-idea-to-production-how-to-write-a-technical-prompt-that-actually-works</loc>
+    <lastmod>2026-03-05T18:18:48.554Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/ai-doesnt-reduce-work-it-intensifies-it</loc>
