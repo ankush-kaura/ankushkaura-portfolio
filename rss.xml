@@ -6,7 +6,14 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 11:25:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 06:56:50 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Ghost in the machine]]></title>
+      <description><![CDATA[I’ve always been a bit of a skeptic when an AI says it’s "happy to help." I figured it was just a sophisticated version of a pull-string doll pre-programmed politeness designed to make us feel at home.]]></description>
+      <link>https://www.ankushkaura.in/blog/ghost-in-the-machine</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/ghost-in-the-machine</guid>
+      <pubDate>Sat, 04 Apr 2026 18:30:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[From Idea to Production: How to Write a Technical Prompt That Actually Works]]></title>
       <description><![CDATA[AI is only as good as the brief you give it. Treat it like a senior engineer joining your team mid-sprint, the more context you hand over, the better the output.]]></description>
