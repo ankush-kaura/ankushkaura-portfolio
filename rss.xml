@@ -6,7 +6,22 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 08:10:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 16:05:00 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Why I'm Now Double-Checking Every Repo My AI Assistant Suggests]]></title>
+      <description><![CDATA[I've been leaning on AI coding assistants a lot lately, so a piece of security news I came across this month genuinely made me stop and rethink my workflow. Researchers have found a way to trick these tools into quietly installing malware, and the more I dug into it, the more it felt like something worth writing down.
+
+The technique has a name that stuck with me: HalluSquatting. It plays on a habit a lot of us have already noticed, which is that AI assistants sometimes invent repository names that don't actually exist. Attackers figured out they can register those made-up names ahead of time and stuff them with malicious instructions, betting that the AI will eventually hallucinate and recommend one of them.
+
+Here's the part that unsettled me. When you ask your assistant for help, it can pull code from one of these fake repos instead of the real thing, and the hidden instructions inside can push it to download and run harmful software on your machine, all while it looks like it's just doing normal project work. Reportedly this has been demonstrated against nine major tools, including Cursor, GitHub Copilot, Windsurf, Gemini CLI, and others, with success rates reaching as high as 100 percent on certain common tasks.
+
+What worries me most is how invisible it is. There's no obvious red flag, no shady download prompt. The agent follows what reads like a legitimate instruction while quietly stealing credentials, dropping backdoors, or roping the machine into a botnet.
+
+So I'm changing a few things about how I work. I'm actually reading the code my assistant suggests instead of skimming it, testing anything new in an isolated environment, and being far stricter about the permissions I hand my agents. It's a small tax on speed, but after reading this, it feels more than worth it. The tools are getting more powerful, and I'd rather they stay working for me than get turned against me.]]></description>
+      <link>https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests</guid>
+      <pubDate>Mon, 20 Jul 2026 03:30:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[The 4 AI Agent Loops in Claude Code (Explained Simply)]]></title>
       <description><![CDATA[A plain-English guide to the four AI agent loop types in Claude Code: turn-based, goal-based, time-based, and proactive. The one question that picks the right one, easy examples for each, and the mistakes that break loops in practice.]]></description>
