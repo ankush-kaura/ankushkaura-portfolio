@@ -6,7 +6,14 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 09:57:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 08:10:45 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[The 4 AI Agent Loops in Claude Code (Explained Simply)]]></title>
+      <description><![CDATA[A plain-English guide to the four AI agent loop types in Claude Code: turn-based, goal-based, time-based, and proactive. The one question that picks the right one, easy examples for each, and the mistakes that break loops in practice.]]></description>
+      <link>https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code</guid>
+      <pubDate>Sun, 19 Jul 2026 18:30:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[How OpenAI Uses Codex: 7 Real-World Engineering Use Cases and Best Practices]]></title>
       <description><![CDATA[OpenAI's engineering teams use Codex daily across Security, Product, Frontend, API, Infrastructure, and Performance Engineering. This article explores 7 key use cases  from code understanding and refactoring to performance optimization and exploration  along with best practices that help teams move faster, write better code, and manage complexity at scale.]]></description>
