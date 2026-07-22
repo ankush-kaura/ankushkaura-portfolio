@@ -6,7 +6,7 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2026 12:57:34 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 13:25:09 GMT</lastBuildDate>
     <item>
       <title><![CDATA[Why I'm Now Double-Checking Every Repo My AI Assistant Suggests]]></title>
       <description><![CDATA[I've been leaning on AI coding assistants a lot lately, so a piece of security news I came across this month genuinely made me stop and rethink my workflow. Researchers have found a way to trick these tools into quietly installing malware, and the more I dug into it, the more it felt like something worth writing down.
