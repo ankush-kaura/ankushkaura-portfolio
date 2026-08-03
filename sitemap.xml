@@ -2,27 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.ankushkaura.in</loc>
-    <lastmod>2026-07-22T13:25:09.847Z</lastmod>
+    <lastmod>2026-08-03T04:18:55.075Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/portfolio</loc>
-    <lastmod>2026-07-22T13:25:09.847Z</lastmod>
+    <lastmod>2026-08-03T04:18:55.075Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blogs</loc>
-    <lastmod>2026-07-22T13:25:09.847Z</lastmod>
+    <lastmod>2026-08-03T04:18:55.075Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/work</loc>
-    <lastmod>2026-07-22T13:25:09.847Z</lastmod>
+    <lastmod>2026-08-03T04:18:55.075Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/the-new-rules-context-engineering-claude-5</loc>
+    <lastmod>2026-08-03T04:18:06.160Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests</loc>
