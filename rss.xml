@@ -6,7 +6,7 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 13:27:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 13:40:25 GMT</lastBuildDate>
     <item>
       <title><![CDATA[The New Rules of Context Engineering for Claude 5 Models]]></title>
       <description><![CDATA[A plain-English breakdown of how prompting and context engineering have changed for the newest Claude models. Anthropic removed over 80% of Claude Code's system prompt with no measurable loss, and this post covers why: trust the model's judgment over rigid rules, design good interfaces instead of piling on examples, and load context only when it's needed. Includes simple, memorable analogies for each shift.]]></description>
