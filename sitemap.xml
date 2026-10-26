@@ -1,135 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.ankushkaura.in</loc>
-    <lastmod>2026-10-08T13:40:26.335Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://www.ankushkaura.in/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/portfolio</loc>
-    <lastmod>2026-10-08T13:40:26.335Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.ankushkaura.in/portfolio/</loc>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blogs</loc>
-    <lastmod>2026-10-08T13:40:26.335Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.ankushkaura.in/work/</loc>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/work</loc>
-    <lastmod>2026-10-08T13:40:26.335Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.ankushkaura.in/stack/</loc>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/the-new-rules-context-engineering-claude-5</loc>
+    <loc>https://www.ankushkaura.in/blogs/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/getting-your-team-to-use-the-crm/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/odoo-vs-salesforce-vs-dynamics-crm/</loc>
+    <lastmod>2026-10-26T03:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/erp-vs-crm/</loc>
+    <lastmod>2026-10-26T02:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/the-new-rules-context-engineering-claude-5/</loc>
     <lastmod>2026-08-03T04:18:06.160Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests</loc>
+    <loc>https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests/</loc>
     <lastmod>2026-07-20T16:04:20.671Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code</loc>
+    <loc>https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code/</loc>
     <lastmod>2026-07-20T08:10:02.981Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/how-openai-uses-codex-engineering-use-cases</loc>
+    <loc>https://www.ankushkaura.in/blog/how-openai-uses-codex-engineering-use-cases/</loc>
     <lastmod>2026-05-26T09:43:52.272Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/ghost-in-the-machine</loc>
+    <loc>https://www.ankushkaura.in/blog/ghost-in-the-machine/</loc>
     <lastmod>2026-04-06T06:56:14.228Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/from-idea-to-production-how-to-write-a-technical-prompt-that-actually-works</loc>
+    <loc>https://www.ankushkaura.in/blog/from-idea-to-production-how-to-write-a-technical-prompt-that-actually-works/</loc>
     <lastmod>2026-03-05T18:22:44.789Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/ai-doesnt-reduce-work-it-intensifies-it</loc>
+    <loc>https://www.ankushkaura.in/blog/ai-doesnt-reduce-work-it-intensifies-it/</loc>
     <lastmod>2026-02-23T05:52:02.795Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/do-not-give-up-your-brain</loc>
+    <loc>https://www.ankushkaura.in/blog/do-not-give-up-your-brain/</loc>
     <lastmod>2026-02-06T13:34:26.047Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack</loc>
+    <loc>https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack/</loc>
     <lastmod>2026-02-06T13:07:44.226Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account</loc>
+    <loc>https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account/</loc>
     <lastmod>2026-01-16T13:30:23.379Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/build-and-use-mistral-vibe-cli-coding-assistant</loc>
+    <loc>https://www.ankushkaura.in/blog/build-and-use-mistral-vibe-cli-coding-assistant/</loc>
     <lastmod>2025-12-17T07:59:36.411Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/every-developer-needs-to-self-host</loc>
+    <loc>https://www.ankushkaura.in/blog/every-developer-needs-to-self-host/</loc>
     <lastmod>2025-11-18T06:41:44.560Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/nobody-wants-to-be-the-boss-anymore</loc>
+    <loc>https://www.ankushkaura.in/blog/nobody-wants-to-be-the-boss-anymore/</loc>
     <lastmod>2025-11-13T07:30:56.548Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/artificial-intelligence-glossary</loc>
+    <loc>https://www.ankushkaura.in/blog/artificial-intelligence-glossary/</loc>
     <lastmod>2025-11-10T05:12:22.637Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development</loc>
+    <loc>https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development/</loc>
     <lastmod>2025-10-28T11:36:32.671Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/rest-vs-graphql</loc>
+    <loc>https://www.ankushkaura.in/blog/rest-vs-graphql/</loc>
     <lastmod>2025-10-25T12:10:44.625Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs</loc>
+    <loc>https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs/</loc>
     <lastmod>2025-10-24T19:18:00.316Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/why-is-ai-design-bad</loc>
+    <loc>https://www.ankushkaura.in/blog/why-is-ai-design-bad/</loc>
     <lastmod>2025-10-24T18:57:34.549Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/ai/</loc>
+    <lastmod>2026-08-03T04:18:06.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/ai-coding-assistants/</loc>
+    <lastmod>2026-07-20T16:04:20.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/opinion/</loc>
+    <lastmod>2026-04-06T06:56:14.228Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/web-development/</loc>
+    <lastmod>2026-01-16T13:30:23.379Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/best-practices/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/crm/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/customer-management/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/developer-tools/</loc>
+    <lastmod>2026-07-20T08:10:02.981Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/llm/</loc>
+    <lastmod>2026-08-03T04:18:06.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/odoo/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/odoo-19/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/career/</loc>
+    <lastmod>2025-11-13T07:30:56.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/claude/</loc>
+    <lastmod>2026-08-03T04:18:06.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/devops/</loc>
+    <lastmod>2026-02-06T13:07:44.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/erp/</loc>
+    <lastmod>2026-10-26T03:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/full-stack/</loc>
+    <lastmod>2025-10-28T11:36:32.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/productivity/</loc>
+    <lastmod>2026-02-23T05:52:02.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/prompt-engineering/</loc>
+    <lastmod>2026-08-03T04:18:06.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/security/</loc>
+    <lastmod>2026-07-20T16:04:20.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/self-hosting/</loc>
+    <lastmod>2026-02-06T13:07:44.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/servers/</loc>
+    <lastmod>2026-02-06T13:07:44.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/sme/</loc>
+    <lastmod>2026-10-26T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/work/</loc>
+    <lastmod>2026-02-23T05:52:02.795Z</lastmod>
   </url>
 </urlset>

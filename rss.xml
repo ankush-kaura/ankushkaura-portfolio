@@ -2,17 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ankush Kaura - Full-Stack Developer</title>
-    <description>Full-Stack Developer & Digital Solutions Architect. Blog posts on web development, programming, and technology.</description>
+    <description>Full-Stack Developer & Digital Solutions Architect. Blog posts on web development, Odoo, programming, and technology.</description>
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
-    <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 13:40:25 GMT</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 Oct 2026 11:04:15 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Getting Your Team to Actually Use the Odoo CRM]]></title>
+      <description><![CDATA[How to get your team to use the CRM in Odoo 19: capture leads without typing, keep activities honest, and use reports the team trusts.]]></description>
+      <link>https://www.ankushkaura.in/blog/getting-your-team-to-use-the-crm/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/getting-your-team-to-use-the-crm/</guid>
+      <pubDate>Mon, 26 Oct 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[SME]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Lead Management]]></category>
+      <category><![CDATA[Sales Management]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo vs Salesforce vs Dynamics: A Developer's Checklist]]></title>
+      <description><![CDATA[Comparing Odoo vs Salesforce vs Dynamics CRM? A developer's checklist on customisation, hosting, upgrades and integration, with Odoo 19 facts.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-vs-salesforce-vs-dynamics-crm/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-vs-salesforce-vs-dynamics-crm/</guid>
+      <pubDate>Mon, 26 Oct 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Salesforce]]></category>
+      <category><![CDATA[Microsoft]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Digital Transformation]]></category>
+      <category><![CDATA[Customer Management]]></category>
+    </item>
+    <item>
+      <title><![CDATA[ERP vs CRM: Where the Line Falls and How Odoo Joins Them]]></title>
+      <description><![CDATA[ERP vs CRM explained for a small business: what each system records, where they meet, and how Odoo 19 links a won deal to an order.]]></description>
+      <link>https://www.ankushkaura.in/blog/erp-vs-crm/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/erp-vs-crm/</guid>
+      <pubDate>Mon, 26 Oct 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[SME]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+    </item>
     <item>
       <title><![CDATA[The New Rules of Context Engineering for Claude 5 Models]]></title>
       <description><![CDATA[A plain-English breakdown of how prompting and context engineering have changed for the newest Claude models. Anthropic removed over 80% of Claude Code's system prompt with no measurable loss, and this post covers why: trust the model's judgment over rigid rules, design good interfaces instead of piling on examples, and load context only when it's needed. Includes simple, memorable analogies for each shift.]]></description>
-      <link>https://www.ankushkaura.in/blog/the-new-rules-context-engineering-claude-5</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/the-new-rules-context-engineering-claude-5</guid>
+      <link>https://www.ankushkaura.in/blog/the-new-rules-context-engineering-claude-5/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/the-new-rules-context-engineering-claude-5/</guid>
       <pubDate>Sat, 25 Jul 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Claude]]></category>
+      <category><![CDATA[Context Engineering]]></category>
+      <category><![CDATA[Prompt Engineering]]></category>
+      <category><![CDATA[LLM]]></category>
     </item>
     <item>
       <title><![CDATA[Why I'm Now Double-Checking Every Repo My AI Assistant Suggests]]></title>
@@ -25,117 +75,190 @@ Here's the part that unsettled me. When you ask your assistant for help, it can 
 What worries me most is how invisible it is. There's no obvious red flag, no shady download prompt. The agent follows what reads like a legitimate instruction while quietly stealing credentials, dropping backdoors, or roping the machine into a botnet.
 
 So I'm changing a few things about how I work. I'm actually reading the code my assistant suggests instead of skimming it, testing anything new in an isolated environment, and being far stricter about the permissions I hand my agents. It's a small tax on speed, but after reading this, it feels more than worth it. The tools are getting more powerful, and I'd rather they stay working for me than get turned against me.]]></description>
-      <link>https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests</guid>
+      <link>https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/why-im-double-checking-every-repo-my-ai-assistant-suggests/</guid>
       <pubDate>Mon, 20 Jul 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[AI Coding Assistants]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Supply Chain]]></category>
+      <category><![CDATA[Best Practices]]></category>
     </item>
     <item>
       <title><![CDATA[The 4 AI Agent Loops in Claude Code (Explained Simply)]]></title>
       <description><![CDATA[A plain-English guide to the four AI agent loop types in Claude Code: turn-based, goal-based, time-based, and proactive. The one question that picks the right one, easy examples for each, and the mistakes that break loops in practice.]]></description>
-      <link>https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code</guid>
+      <link>https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code/</guid>
       <pubDate>Sun, 19 Jul 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Claude Code]]></category>
+      <category><![CDATA[AI Agents]]></category>
+      <category><![CDATA[AI Coding Assistants]]></category>
+      <category><![CDATA[Developer Tools]]></category>
     </item>
     <item>
       <title><![CDATA[How OpenAI Uses Codex: 7 Real-World Engineering Use Cases and Best Practices]]></title>
       <description><![CDATA[OpenAI's engineering teams use Codex daily across Security, Product, Frontend, API, Infrastructure, and Performance Engineering. This article explores 7 key use cases  from code understanding and refactoring to performance optimization and exploration  along with best practices that help teams move faster, write better code, and manage complexity at scale.]]></description>
-      <link>https://www.ankushkaura.in/blog/how-openai-uses-codex-engineering-use-cases</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-openai-uses-codex-engineering-use-cases</guid>
+      <link>https://www.ankushkaura.in/blog/how-openai-uses-codex-engineering-use-cases/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-openai-uses-codex-engineering-use-cases/</guid>
       <pubDate>Sat, 16 May 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[OpenAI]]></category>
+      <category><![CDATA[Codex]]></category>
+      <category><![CDATA[AI Coding Assistants]]></category>
+      <category><![CDATA[Engineering]]></category>
     </item>
     <item>
       <title><![CDATA[Ghost in the machine]]></title>
       <description><![CDATA[I’ve always been a bit of a skeptic when an AI says it’s "happy to help." I figured it was just a sophisticated version of a pull-string doll pre-programmed politeness designed to make us feel at home.]]></description>
-      <link>https://www.ankushkaura.in/blog/ghost-in-the-machine</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/ghost-in-the-machine</guid>
+      <link>https://www.ankushkaura.in/blog/ghost-in-the-machine/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/ghost-in-the-machine/</guid>
       <pubDate>Sat, 04 Apr 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Claude]]></category>
+      <category><![CDATA[LLM]]></category>
+      <category><![CDATA[AI Safety]]></category>
+      <category><![CDATA[Opinion]]></category>
     </item>
     <item>
       <title><![CDATA[From Idea to Production: How to Write a Technical Prompt That Actually Works]]></title>
       <description><![CDATA[AI is only as good as the brief you give it. Treat it like a senior engineer joining your team mid-sprint, the more context you hand over, the better the output.]]></description>
-      <link>https://www.ankushkaura.in/blog/from-idea-to-production-how-to-write-a-technical-prompt-that-actually-works</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/from-idea-to-production-how-to-write-a-technical-prompt-that-actually-works</guid>
+      <link>https://www.ankushkaura.in/blog/from-idea-to-production-how-to-write-a-technical-prompt-that-actually-works/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/from-idea-to-production-how-to-write-a-technical-prompt-that-actually-works/</guid>
       <pubDate>Wed, 04 Mar 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Prompt Engineering]]></category>
+      <category><![CDATA[Software Development]]></category>
+      <category><![CDATA[Best Practices]]></category>
     </item>
     <item>
       <title><![CDATA[AI Doesn’t Reduce Work, It Intensifies It]]></title>
       <description><![CDATA[One of the promises of AI is that it can reduce workloads so employees can focus more on higher-value and more engaging tasks. But according to new research, AI tools don’t reduce work, they consistently intensify it:]]></description>
-      <link>https://www.ankushkaura.in/blog/ai-doesnt-reduce-work-it-intensifies-it</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/ai-doesnt-reduce-work-it-intensifies-it</guid>
+      <link>https://www.ankushkaura.in/blog/ai-doesnt-reduce-work-it-intensifies-it/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/ai-doesnt-reduce-work-it-intensifies-it/</guid>
       <pubDate>Sat, 21 Feb 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Productivity]]></category>
+      <category><![CDATA[Work]]></category>
+      <category><![CDATA[Opinion]]></category>
     </item>
     <item>
       <title><![CDATA[Do not give up your brain]]></title>
       <description><![CDATA[I do use AI for work, and often shill AI for work, and use it often on side projects.
 
 That being said, I really care about using AI as a tool, rather than a replacement for my own thoughts and ideas. I think it’s very important to not default to laziness and just asking for the answer to something, especially when thinking a liiiiittle bit can get you there.]]></description>
-      <link>https://www.ankushkaura.in/blog/do-not-give-up-your-brain</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/do-not-give-up-your-brain</guid>
+      <link>https://www.ankushkaura.in/blog/do-not-give-up-your-brain/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/do-not-give-up-your-brain/</guid>
       <pubDate>Thu, 05 Feb 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Critical Thinking]]></category>
+      <category><![CDATA[Productivity]]></category>
+      <category><![CDATA[Opinion]]></category>
     </item>
     <item>
       <title><![CDATA[How a 3D Printer With AI Became the MVP of My Server Management Stack]]></title>
       <description><![CDATA[Running infrastructure feels like a full-contact sport. One bad outage and your SLAs go up in flames. Scaling never happens when you want it to. And hardware failures? They love showing up at 3 AM like they’re doing you a favor. I hit a point where I needed a real shift not another dashboard with neon graphs, but an actual co-pilot for ops.
 ]]></description>
-      <link>https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack</guid>
+      <link>https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack/</guid>
       <pubDate>Wed, 04 Feb 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Self-Hosting]]></category>
+      <category><![CDATA[Servers]]></category>
+      <category><![CDATA[3D Printing]]></category>
+      <category><![CDATA[DevOps]]></category>
     </item>
     <item>
       <title><![CDATA[Single Sign-On vs “Login with Google”: What Really Happens When You Delete Your Google Account]]></title>
       <description><![CDATA[Most of us click “Continue with Google” without thinking twice. It’s fast. It’s convenient. It feels safe.]]></description>
-      <link>https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account</guid>
+      <link>https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account/</guid>
       <pubDate>Thu, 15 Jan 2026 18:30:00 GMT</pubDate>
+      <category><![CDATA[Authentication]]></category>
+      <category><![CDATA[Single Sign-On]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Google]]></category>
+      <category><![CDATA[Web Development]]></category>
     </item>
     <item>
       <title><![CDATA[Build and Use Mistral Vibe — The CLI Coding Assistant]]></title>
       <description><![CDATA[Mistral Vibe is a modern command-line coding assistant that lets you query, explore, and modify your codebase using natural language right in the terminal. It’s like having a smart junior dev that lives in your shell and understands your whole repo.In this walkthrough, we’ll break down how to set it up, configure it, and start using it — so you can share this on your blog with no fluff and all the practicals.]]></description>
-      <link>https://www.ankushkaura.in/blog/build-and-use-mistral-vibe-cli-coding-assistant</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/build-and-use-mistral-vibe-cli-coding-assistant</guid>
+      <link>https://www.ankushkaura.in/blog/build-and-use-mistral-vibe-cli-coding-assistant/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/build-and-use-mistral-vibe-cli-coding-assistant/</guid>
       <pubDate>Tue, 16 Dec 2025 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Mistral]]></category>
+      <category><![CDATA[CLI]]></category>
+      <category><![CDATA[AI Coding Assistants]]></category>
+      <category><![CDATA[Developer Tools]]></category>
     </item>
     <item>
       <title><![CDATA[Every Developer Needs to Self-Host]]></title>
       <description><![CDATA[Self hosting is not just about saving money or going off grid. It is about learning the skills that power the internet and unlocking opportunities you might not even know exist yet.]]></description>
-      <link>https://www.ankushkaura.in/blog/every-developer-needs-to-self-host</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/every-developer-needs-to-self-host</guid>
+      <link>https://www.ankushkaura.in/blog/every-developer-needs-to-self-host/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/every-developer-needs-to-self-host/</guid>
       <pubDate>Mon, 17 Nov 2025 18:30:00 GMT</pubDate>
+      <category><![CDATA[Self-Hosting]]></category>
+      <category><![CDATA[DevOps]]></category>
+      <category><![CDATA[Servers]]></category>
+      <category><![CDATA[Developer Tools]]></category>
     </item>
     <item>
       <title><![CDATA[Nobody wants to be the boss anymore. Here’s why, in just 7 words]]></title>
       <description><![CDATA[New research shows only 30% of workers want to become managers. Here’s why, and what your organization can do about it.]]></description>
-      <link>https://www.ankushkaura.in/blog/nobody-wants-to-be-the-boss-anymore</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/nobody-wants-to-be-the-boss-anymore</guid>
+      <link>https://www.ankushkaura.in/blog/nobody-wants-to-be-the-boss-anymore/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/nobody-wants-to-be-the-boss-anymore/</guid>
       <pubDate>Wed, 12 Nov 2025 18:30:00 GMT</pubDate>
+      <category><![CDATA[Management]]></category>
+      <category><![CDATA[Leadership]]></category>
+      <category><![CDATA[Career]]></category>
+      <category><![CDATA[Work]]></category>
     </item>
     <item>
       <title><![CDATA[Artificial intelligence glossary | 60+ terms to know]]></title>
       <description><![CDATA[AI is moving fast and can be hard to keep up in real time. Use this glossary as a reference for AI terms.]]></description>
-      <link>https://www.ankushkaura.in/blog/artificial-intelligence-glossary</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/artificial-intelligence-glossary</guid>
+      <link>https://www.ankushkaura.in/blog/artificial-intelligence-glossary/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/artificial-intelligence-glossary/</guid>
       <pubDate>Sun, 09 Nov 2025 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Glossary]]></category>
+      <category><![CDATA[Machine Learning]]></category>
+      <category><![CDATA[LLM]]></category>
     </item>
     <item>
       <title><![CDATA[Lessons Learned from 7 Years in Web & App Development]]></title>
       <description><![CDATA[Working in web and app development for over seven years has been an exciting rollercoaster — full of bugs, breakthroughs, and a lot of “aha!” moments. From writing my first line of code to leading complex full-stack projects, every phase has taught me something valuable. Here are some of the biggest lessons I’ve learned that might help both beginners and professionals in their own journeys.]]></description>
-      <link>https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development</guid>
+      <link>https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development/</guid>
       <pubDate>Sun, 26 Oct 2025 18:30:00 GMT</pubDate>
+      <category><![CDATA[Career]]></category>
+      <category><![CDATA[Lessons Learned]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <category><![CDATA[Full-Stack]]></category>
     </item>
     <item>
       <title><![CDATA[REST vs GraphQL: Choosing the Right API Design]]></title>
       <description><![CDATA[When building websites, mobile apps or any services that talk to a server, your application needs a way to fetch or update data. In tech‐speak this is done via an API (Application Programming Interface). But there’s more than one way to build an API. Two of the most popular approaches today are REST and GraphQL.]]></description>
-      <link>https://www.ankushkaura.in/blog/rest-vs-graphql</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/rest-vs-graphql</guid>
+      <link>https://www.ankushkaura.in/blog/rest-vs-graphql/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/rest-vs-graphql/</guid>
       <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
+      <category><![CDATA[REST]]></category>
+      <category><![CDATA[GraphQL]]></category>
+      <category><![CDATA[API Design]]></category>
+      <category><![CDATA[Backend]]></category>
+      <category><![CDATA[Web Development]]></category>
     </item>
     <item>
       <title><![CDATA[Building Scalable Full-Stack Apps with Node.js + React.js]]></title>
       <description><![CDATA[In today’s world of web apps and mobile apps, users expect things to be fast, smooth, and reliable no matter how many people use them. To build that kind of app you often need a full-stack setup: frontend (what the user sees) + backend (what the server does) + database/storage + scaling. In this blog we’ll talk about using Node.js (for the backend) and React.js (for the frontend) to build apps which are scalable (i.e., can handle growth) and user-friendly.]]></description>
-      <link>https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs</guid>
+      <link>https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs/</guid>
       <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
+      <category><![CDATA[Node.js]]></category>
+      <category><![CDATA[React]]></category>
+      <category><![CDATA[Full-Stack]]></category>
+      <category><![CDATA[Scalability]]></category>
+      <category><![CDATA[Web Development]]></category>
     </item>
     <item>
       <title><![CDATA[Why Is AI Design Bad ?]]></title>
@@ -143,9 +266,13 @@ That being said, I really care about using AI as a tool, rather than a replaceme
 
 The design challenge AI hasn’t solved (yet)
 AI’s sweet spot is anything that runs on clear rules.]]></description>
-      <link>https://www.ankushkaura.in/blog/why-is-ai-design-bad</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/why-is-ai-design-bad</guid>
+      <link>https://www.ankushkaura.in/blog/why-is-ai-design-bad/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/why-is-ai-design-bad/</guid>
       <pubDate>Thu, 23 Oct 2025 18:30:00 GMT</pubDate>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[Design]]></category>
+      <category><![CDATA[UX]]></category>
+      <category><![CDATA[Opinion]]></category>
     </item>
   </channel>
 </rss>

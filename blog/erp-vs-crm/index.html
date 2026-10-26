@@ -1,0 +1,191 @@
+<!DOCTYPE html><script>(function(){const slug = "erp-vs-crm";
+const title = "ERP vs CRM: Where the Line Falls and How Odoo Joins Them";
+
+  // Track blog view on page load
+  if (window.gtag) {
+    window.gtag('event', 'blog_view', {
+      blog_slug: slug,
+      blog_title: title,
+    })
+  }
+})();</script> <html lang="en"> <head><meta charset="utf-8"><meta name="robots" content="index, follow"><meta name="googlebot" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Astro v5.15.1"><meta name="author" content="Ankush Kaura"><meta name="language" content="en-US"><meta name="keywords" content="ERP, CRM, Odoo, Odoo 19, SME, Customer Management, Business Automation, ERP Implementation"><link rel="canonical" href="https://www.ankushkaura.in/blog/erp-vs-crm/"><link rel="shortcut icon" type="image/svg+xml" href="https://www.ankushkaura.in/favicon.svg"><link rel="sitemap" type="application/xml" href="https://www.ankushkaura.in/sitemap.xml"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.ankushkaura.in/rss.xml"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#000000"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Ankush Kaura"><title>ERP vs CRM: Where the Line Falls and How Odoo Joins Them</title><meta name="title" content="ERP vs CRM: Where the Line Falls and How Odoo Joins Them"><meta name="description" content="ERP vs CRM explained for a small business: what each system records, where they meet, and how Odoo 19 links a won deal to an order."><!-- Enhanced Open Graph --><meta property="og:type" content="article"><meta property="og:url" content="https://www.ankushkaura.in/blog/erp-vs-crm/"><meta property="og:site_name" content="Ankush Kaura - Full-Stack Developer"><meta property="og:title" content="ERP vs CRM: Where the Line Falls and How Odoo Joins Them"><meta property="og:description" content="ERP vs CRM explained for a small business: what each system records, where they meet, and how Odoo 19 links a won deal to an order."><meta property="og:image" content="https://www.ankushkaura.in/og/blog-erp-vs-crm.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_US"><meta property="article:published_time" content="2026-10-26T08:00:00+05:30"><meta property="article:modified_time" content="2026-10-26T08:00:00+05:30"><meta property="article:author" content="Ankush Kaura"><meta property="article:tag" content="ERP"><meta property="article:tag" content="CRM"><meta property="article:tag" content="Odoo"><meta property="article:tag" content="Odoo 19"><meta property="article:tag" content="SME"><meta property="article:tag" content="Customer Management"><meta property="article:tag" content="Business Automation"><meta property="article:tag" content="ERP Implementation"><!-- Enhanced Twitter Cards --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://www.ankushkaura.in/blog/erp-vs-crm/"><meta property="twitter:site" content="@ankushkaura"><meta property="twitter:creator" content="@ankushkaura"><meta property="twitter:title" content="ERP vs CRM: Where the Line Falls and How Odoo Joins Them"><meta property="twitter:description" content="ERP vs CRM explained for a small business: what each system records, where they meet, and how Odoo 19 links a won deal to an order."><meta property="twitter:image" content="https://www.ankushkaura.in/og/blog-erp-vs-crm.png"><!-- Structured Data (JSON-LD) --><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","name":"ERP vs CRM: Where the Line Falls and How Odoo Joins Them","headline":"ERP vs CRM: Where the Line Falls and How Odoo Joins Them","description":"ERP vs CRM explained for a small business: what each system records, where they meet, and how Odoo 19 links a won deal to an order.","url":"https://www.ankushkaura.in/blog/erp-vs-crm/","image":"https://www.ankushkaura.in/og/blog-erp-vs-crm.png","inLanguage":"en","author":{"@type":"Person","name":"Ankush Kaura","url":"https://www.ankushkaura.in/","sameAs":["https://github.com/ankush-kaura","https://www.linkedin.com/in/ankush-kaura-4893a93a6/","https://twitter.com/ankushkaura"]},"publisher":{"@type":"Person","name":"Ankush Kaura","url":"https://www.ankushkaura.in/"},"datePublished":"2026-10-26T08:00:00+05:30","dateModified":"2026-10-26T08:00:00+05:30","keywords":"ERP, CRM, Odoo, Odoo 19, SME, Customer Management, Business Automation, ERP Implementation","wordCount":910,"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushkaura.in/blog/erp-vs-crm/"},"isPartOf":{"@type":"WebSite","name":"Ankush Kaura - Full-Stack Developer","url":"https://www.ankushkaura.in/"}}</script><!-- Breadcrumb Structured Data --><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ankushkaura.in/"},{"@type":"ListItem","position":2,"name":"Writing","item":"https://www.ankushkaura.in/blogs/"},{"@type":"ListItem","position":3,"name":"ERP vs CRM: Where the Line Falls and How Odoo Joins Them","item":"https://www.ankushkaura.in/blog/erp-vs-crm/"}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between ERP and CRM?","acceptedAnswer":{"@type":"Answer","text":"A CRM records people and deals: leads, contacts, the pipeline and follow-ups. An ERP records what the business does once a deal is agreed: stock, purchasing, invoicing and accounting."}},{"@type":"Question","name":"Do I have to install both in Odoo?","acceptedAnswer":{"@type":"Answer","text":"No. The CRM app can be installed on its own. If you also install Sales, the sale_crm module adds a New Quotation button on the opportunity and links the order back to it."}},{"@type":"Question","name":"How do I connect a separate CRM to Odoo?","acceptedAnswer":{"@type":"Answer","text":"Through Odoo's external API. Odoo 19 adds a JSON-2 endpoint at /json/2, and the documentation says external API access is only available on Custom Odoo pricing plans."}}]}</script><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-S0RDSR9X3W"></script><script>(function(){const gaId = "G-S0RDSR9X3W";
+const pageTitle = "ERP vs CRM: Where the Line Falls and How Odoo Joins Them";
+const pageLocation = "https://www.ankushkaura.in/blog/erp-vs-crm/";
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+  gtag('config', gaId, {
+    page_title: pageTitle,
+    page_location: pageLocation,
+    send_page_view: true,
+    enhanced_measurement: {
+      scrolls: true,
+      outbound_clicks: true,
+      site_search: true,
+      video_engagement: true,
+      file_downloads: true,
+    },
+  })
+})();</script><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/assets/ClientRouter.astro_astro_type_script_index_0_lang.elfUsALL.js"></script><script type="module" src="/assets/WebVitals.astro_astro_type_script_index_0_lang.Crpxd1aU.js"></script><link rel="stylesheet" href="/assets/styles.css"><style>[data-astro-transition-scope="astro-mlohbwkr-1"] { view-transition-name: astro-mlohbwkr-1; }@layer astro { ::view-transition-old(astro-mlohbwkr-1) { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }::view-transition-new(astro-mlohbwkr-1) { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back]::view-transition-old(astro-mlohbwkr-1) { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back]::view-transition-new(astro-mlohbwkr-1) { 
+	animation-name: astroFadeIn, astroSlideFromLeft; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-name: astroFadeIn, astroSlideFromLeft; }</style></head> <body class="min-h-screen bg-background font-sans antialiased"> <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2" data-astro-cid-svspnz7o>
+Skip to main content
+</a>  <div class="flex flex-col items-center justify-center"> <script>
+  // Open the ⌘K command palette from the header button (delegated so it
+  // survives Astro view-transition swaps without duplicate bindings).
+  if (!window.__cmdkBound) {
+    window.__cmdkBound = true
+    document.addEventListener('click', function (e) {
+      const t = e.target
+      if (t && t.closest && t.closest('#cmdk-trigger')) {
+        window.dispatchEvent(new CustomEvent('open-command-palette'))
+      }
+    })
+  }
+
+  document.addEventListener('astro:after-swap', function () {
+    if (localStorage.getItem('theme') === 'dark')
+      document.documentElement.classList.toggle('dark', true)
+  })
+
+  const getThemePreference = () => localStorage.getItem('theme')
+  const isDark = getThemePreference() === 'dark'
+  document.documentElement.classList[isDark ? 'add' : 'remove']('dark')
+</script> <header class="sticky top-0 z-50 w-full border-b border-border/60 bg-background/70 backdrop-blur-xl"> <div class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6"> <a href="/" class="group flex items-center gap-2.5" aria-label="Home"> <span class="grid size-8 place-items-center rounded-lg bg-foreground font-mono text-sm font-bold text-background transition-transform duration-300 group-hover:rotate-6">AK</span> <span class="text-sm font-semibold tracking-tight">Ankush Kaura</span> </a> <nav class="hidden items-center gap-1 md:flex"> <a href="/portfolio" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors text-muted-foreground hover:bg-accent hover:text-foreground"> Work </a><a href="/stack" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors text-muted-foreground hover:bg-accent hover:text-foreground"> Stack </a><a href="/blogs" aria-current="page" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors bg-accent text-foreground"> Writing </a> </nav> <div class="flex items-center gap-1.5 sm:gap-2"> <button type="button" id="cmdk-trigger" class="inline-flex items-center gap-2 rounded-lg border border-border bg-secondary/50 px-2.5 py-1.5 text-sm text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground" aria-label="Open command palette (Command or Control + K)"> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg> <span class="hidden sm:inline">Search</span> <kbd class="hidden rounded border border-border bg-background px-1 font-mono text-[10px] sm:inline">⌘K</kbd> </button> <a href="https://github.com/ankush-kaura" target="_blank" rel="noreferrer" class="grid size-9 place-items-center rounded-lg text-muted-foreground transition-colors hover:bg-accent hover:text-foreground" aria-label="GitHub Profile"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.021C22 6.484 17.523 2 12 2z"></path></svg> </a> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="1LJTyf" prefix="r3" component-url="/assets/ThemeToggle.W6oPJi_J.js" component-export="ModeToggle" renderer-url="/assets/client.rDww93b6.js" props="{&quot;data-astro-transition-persist&quot;:[0,&quot;astro-vwda23fb-3&quot;]}" ssr client="load" opts="{&quot;name&quot;:&quot;ModeToggle&quot;,&quot;value&quot;:true}" data-astro-transition-persist="astro-vwda23fb-3" await-children><button class="inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-medium transition-[background-color,border-color,color,transform] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 active:translate-y-px border border-border bg-transparent hover:border-primary/40 hover:bg-accent hover:text-accent-foreground h-10 w-10" type="button" id="radix-_r3R_0_" aria-haspopup="menu" aria-expanded="false" data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg><span class="sr-only">Toggle theme</span></button><!--astro:end--></astro-island> </div> </div> </header> <div id="main-content">  <main class="flex min-h-[80vh] flex-auto flex-col" data-astro-transition-scope="astro-mlohbwkr-1"> <div class="pb-3 pt-3 sm:pb-4 sm:pt-4 md:pb-6 md:pt-6"> <div class="w-full h-full mx-auto px-3 sm:px-4 md:px-6 max-w-screen-md">   <div class="mb-4 sm:mb-6"> <a href="/blogs/" class="text-sm text-primary hover:underline sm:text-base">&larr; Back to Blogs</a> </div> <h1 class="scroll-m-20 text-2xl font-extrabold tracking-tight sm:text-3xl lg:text-4xl xl:text-5xl"> ERP vs CRM: Where the Line Falls and How Odoo Joins Them </h1> <p class="mt-2 text-base text-muted-foreground sm:text-lg"> ERP vs CRM explained for a small business: what each system records, where they meet, and how Odoo 19 links a won deal to an order. </p> <p class="mt-2 text-sm text-gray-500">
+Published on 26 Oct 2026 &middot; 5 min read </p> <ul class="flex flex-wrap gap-2 mt-3" aria-label="Topics"><li><a href="/blog/tag/erp/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">ERP</a></li><li><a href="/blog/tag/crm/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">CRM</a></li><li><a href="/blog/tag/odoo/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Odoo</a></li><li><a href="/blog/tag/odoo-19/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Odoo 19</a></li><li><a href="/blog/tag/sme/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">SME</a></li><li><a href="/blog/tag/customer-management/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Customer Management</a></li><li><a href="/blog/tag/business-automation/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Business Automation</a></li><li><a href="/blog/tag/erp-implementation/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">ERP Implementation</a></li></ul>   </div> </div> <div class="flex-1 py-3 sm:py-4 md:py-6"> <div class="w-full h-full mx-auto px-3 sm:px-4 md:px-6 max-w-screen-md">   <article class="prose max-w-none dark:prose-invert">  <p><strong>Short answer:</strong> a CRM keeps track of people and deals: who enquired, what was promised, what happens next. An ERP keeps track of the work that follows once a deal is agreed: stock, purchasing, invoices and the books. In Odoo both live in one database and share one contact record, so for a small business the question is rarely “which system” and more often “which apps, and in what order”.</p>
+<h2 id="applies-to">Applies to</h2>
+<ul>
+<li><strong>Odoo version:</strong> 19. I also compared the CRM pages in the 20.0 documentation and found the same text, so nothing below changes on a 20.0 site as far as the docs show.</li>
+<li><strong>Edition:</strong> the <code>crm</code> and <code>sale_crm</code> modules are in the open-source <code>odoo/odoo</code> 19.0 repository, so the CRM and Sales link is not Enterprise-only. Other apps you may add later (Accounting, for example) differ by edition, so check the edition comparison on odoo.com before you plan around them.</li>
+<li><strong>Apps:</strong> CRM, Sales, Contacts. Inventory and Accounting come into the worked example only as the next step.</li>
+</ul>
+<h2 id="what-question-does-each-system-answer">What question does each system answer?</h2>
+<p>A CRM answers “who might buy, and where are we with them?” Its records are leads, opportunities, activities and contacts. Its reports are about conversion, forecasts and lost deals.</p>
+<p>An ERP answers “can we deliver this, and did we get paid?” Its records are products, stock moves, purchase orders, vendor bills, customer invoices and journal entries.</p>
+<p>Neither is the more serious system. They fail in different places. A business with a bad CRM loses enquiries quietly. A business with a bad ERP ships the wrong thing, or ships it and forgets to invoice.</p>
+<h2 id="where-do-the-two-meet-in-odoo">Where do the two meet in Odoo?</h2>
+<p>At the contact. The opportunity form in CRM and the quotation form in Sales both point at the same <code>res.partner</code> record, so the customer you chase and the customer you invoice are the same row.</p>
+<p>Reading the 19.0 source, the link between a deal and an order is one field. The <code>sale_crm</code> module adds <code>opportunity_id</code> to <code>sale.order</code>, and <code>order_ids</code> on the lead going the other way. The opportunity then shows counts for quotations and orders and a sum of confirmed orders.</p>
+<p>There is one small behaviour worth knowing about. When a linked order is confirmed, the code compares the opportunity’s <strong>Expected Revenue</strong> with the order’s untaxed total. If the expected revenue is lower, and the currencies match, it is raised to the order total and a note is logged. It is a nudge, not a full sync, so I would not treat that field as an accounting figure.</p>
+<h2 id="what-changes-if-the-crm-is-a-separate-product">What changes if the CRM is a separate product?</h2>
+<p>The join becomes your job. Three things need a decision before anyone writes code:</p>
+<ol>
+<li><strong>Which system owns the customer?</strong> Pick one. Two-way editing of names and addresses is where duplicates start.</li>
+<li><strong>What is the shared key?</strong> Store the other system’s ID in a field you control, and look it up before you create anything. That makes a retried call harmless.</li>
+<li><strong>What triggers the handover?</strong> Usually a deal moving to won. Decide whether that creates a quotation or a confirmed order on the ERP side.</li>
+</ol>
+<p>Odoo 19 documents a JSON-2 endpoint at <code>/json/2/&#x3C;model>/&#x3C;method></code>, authenticated with an API key. The page also says external API access is only available on Custom Odoo pricing plans, which matters if your plan was chosen before integration came up.</p>
+<h2 id="when-it-fits-and-when-it-doesnt">When it fits and when it doesn’t</h2>
+<p>One suite fits when the same few people quote, deliver and invoice, and you want one contact list. It saves you from writing and maintaining the join.</p>
+<p>It fits less well when sales already runs happily in a tool the team likes and only the back office is the problem. Then I would start with the operations apps and integrate the CRM later, rather than force a migration nobody asked for.</p>
+<h2 id="worked-example-a-small-joinery-workshop">Worked example: a small joinery workshop</h2>
+<p>A workshop that builds made-to-measure shelving gets enquiries by email and phone. Today they sit in inboxes and a shared spreadsheet, and orders are written on job sheets.</p>
+<p>In Odoo, the first step is CRM alone: every enquiry becomes an opportunity, with a salesperson and a next activity. Once that habit holds, install Sales. Now <strong>New Quotation</strong> on the opportunity creates a draft order that already carries the customer, campaign and source. Confirming it later feeds Inventory and invoicing, which the workshop can switch on one at a time.</p>
+<p>The order of work follows where the pain is, not the app list.</p>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ul>
+<li>Buying the whole suite and turning everything on in week one. Each app adds fields people must fill in.</li>
+<li>Treating Expected Revenue as booked revenue.</li>
+<li>Keeping a second customer spreadsheet “just in case”. It will drift.</li>
+<li>Integrating two products before deciding which one owns the contact.</li>
+</ul>
+<h2 id="related">Related</h2>
+<p>Pipeline stages and the day-to-day habits come next once the CRM question is settled. There is a longer plain-language comparison on <a href="https://www.sajjalbajaj.in/blog/2026/08/05/erp-vs-crm/">sajjalbajaj.in</a>, if you want a non-technical read to share with a colleague.</p>
+<h2 id="official-references">Official references</h2>
+<ul>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/sales/crm.html">Odoo 19 CRM documentation</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/sales/crm/acquire_leads/send_quotes.html">Create and send quotations from an opportunity</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/essentials/contacts.html">Odoo 19 Contacts</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/developer/reference/external_api.html">External JSON-2 API</a></li>
+<li><a href="https://github.com/odoo/odoo/blob/19.0/addons/sale_crm/models/crm_lead.py">sale_crm source, 19.0</a></li>
+</ul>
+<p><em>How this article was checked: I read the 19.0 documentation pages listed above, compared them with the 20.0 versions, and read the <code>crm</code> and <code>sale_crm</code> models in the 19.0 source. I did not run a live database for this post.</em></p>
+<p>If you are deciding which side to start with, you can <a href="/">get in touch through my site</a> and we can talk it through.</p> </article> <section class="mt-12" aria-labelledby="faq-heading"> <h2 id="faq-heading" class="text-2xl font-semibold tracking-tight">
+Frequently asked questions
+</h2> <div class="mt-4 divide-y divide-border rounded-lg border border-border"> <details class="px-4 py-3"> <summary class="cursor-pointer font-medium">What is the difference between ERP and CRM?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> A CRM records people and deals: leads, contacts, the pipeline and follow-ups. An ERP records what the business does once a deal is agreed: stock, purchasing, invoicing and accounting. </p> </details><details class="px-4 py-3"> <summary class="cursor-pointer font-medium">Do I have to install both in Odoo?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> No. The CRM app can be installed on its own. If you also install Sales, the sale_crm module adds a New Quotation button on the opportunity and links the order back to it. </p> </details><details class="px-4 py-3"> <summary class="cursor-pointer font-medium">How do I connect a separate CRM to Odoo?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> Through Odoo&#39;s external API. Odoo 19 adds a JSON-2 endpoint at /json/2, and the documentation says external API access is only available on Custom Odoo pricing plans. </p> </details> </div> </section><section class="mt-12" aria-labelledby="related-heading"> <h2 id="related-heading" class="text-2xl font-semibold tracking-tight">
+Keep reading
+</h2> <ul class="mt-4 grid gap-3 sm:grid-cols-2"> <li> <a href="/blog/odoo-vs-salesforce-vs-dynamics-crm/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Odoo vs Salesforce vs Dynamics: A Developer&#39;s Checklist</span> <span class="mt-1 block text-xs text-muted-foreground"> 26 Oct 2026 &middot; 5 min read
+</span> </a> </li><li> <a href="/blog/getting-your-team-to-use-the-crm/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Getting Your Team to Actually Use the Odoo CRM</span> <span class="mt-1 block text-xs text-muted-foreground"> 26 Oct 2026 &middot; 5 min read
+</span> </a> </li> </ul> </section>  </div> </div> </main>  </div> <footer class="mt-20 w-full border-t border-border/60"> <div class="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 sm:px-6 md:flex-row md:items-center md:justify-between"> <div class="flex items-center gap-3"> <span class="grid size-8 place-items-center rounded-lg bg-foreground font-mono text-sm font-bold text-background">AK</span> <div class="text-sm"> <p class="font-semibold tracking-tight">Ankush Kaura</p> <p class="text-muted-foreground">
+Full-Stack Developer &amp; Solutions Architect
+</p> </div> </div> <nav class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm"> <a href="/portfolio" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Work </a><a href="/stack" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Stack </a><a href="/blogs" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Writing </a><a href="https://github.com/ankush-kaura" target="_blank" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> GitHub </a><a href="https://www.linkedin.com/in/ankush-kaura-4893a93a6/" target="_blank" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> LinkedIn </a> </nav> </div> <div class="border-t border-border/40"> <div class="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4 text-xs text-muted-foreground sm:flex-row sm:justify-between sm:px-6"> <div class="flex items-center gap-4"> <p>&copy; 2026 Ankush Kaura.</p> <a href="/privacy" class="transition-colors hover:text-foreground">Privacy</a> </div> <p class="font-mono">Built with Astro, React &amp; Tailwind.</p> </div> </div> </footer> </div> <script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();</script><astro-island uid="dNLH8" prefix="r2" component-url="/assets/CommandPalette.CtHeCJdd.js" component-export="default" renderer-url="/assets/client.rDww93b6.js" props="{&quot;data-astro-transition-persist&quot;:[0,&quot;astro-5g5eesqo-2&quot;]}" ssr client="idle" opts="{&quot;name&quot;:&quot;CommandPalette&quot;,&quot;value&quot;:true}" data-astro-transition-persist="astro-5g5eesqo-2"></astro-island> <script>
+      // Scroll-reveal via IntersectionObserver (no scroll listener; re-runs
+      // after view transitions; collapses to instant under reduced motion).
+      function initReveals() {
+        const els = document.querySelectorAll('.reveal:not(.is-visible)')
+        const reduce = window.matchMedia(
+          '(prefers-reduced-motion: reduce)',
+        ).matches
+        if (reduce || !('IntersectionObserver' in window)) {
+          els.forEach((el) => el.classList.add('is-visible'))
+          return
+        }
+        const io = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible')
+                obs.unobserve(entry.target)
+              }
+            })
+          },
+          { threshold: 0.02, rootMargin: '0px 0px -4% 0px' },
+        )
+        els.forEach((el) => io.observe(el))
+        // Safety net: never let anything stay hidden. Reveal in/near the
+        // viewport shortly after load in case IO misses tall elements.
+        setTimeout(() => {
+          document
+            .querySelectorAll('.reveal:not(.is-visible)')
+            .forEach((el) => {
+              if (el.getBoundingClientRect().top < window.innerHeight * 1.1) {
+                el.classList.add('is-visible')
+              }
+            })
+        }, 500)
+      }
+      document.addEventListener('astro:page-load', initReveals)
+      if (document.readyState !== 'loading') initReveals()
+      else document.addEventListener('DOMContentLoaded', initReveals)
+    </script> <script>
+      // Register service worker for PWA support
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {
+              console.log('ServiceWorker registered:', registration.scope)
+            })
+            .catch((error) => {
+              console.log('ServiceWorker registration failed:', error)
+            })
+        })
+      }
+    </script> </body> </html>
