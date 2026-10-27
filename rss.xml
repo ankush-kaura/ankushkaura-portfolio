@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 12:27:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:20:22 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[How to Set Up a Sales Pipeline in Odoo 19 CRM, Step by Step]]></title>
+      <description><![CDATA[How to set up a sales pipeline in Odoo 19 CRM: settings, sales team, stages, lost reasons, activities and a first test opportunity.]]></description>
+      <link>https://www.ankushkaura.in/blog/how-to-set-up-crm-pipeline-odoo/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-to-set-up-crm-pipeline-odoo/</guid>
+      <pubDate>Tue, 27 Oct 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Sales]]></category>
+      <category><![CDATA[Sales Management]]></category>
+      <category><![CDATA[Lead Management]]></category>
+      <category><![CDATA[How To]]></category>
+    </item>
+    <item>
+      <title><![CDATA[How Odoo CRM Pipelines Work: Stages, Probability, Won, Lost]]></title>
+      <description><![CDATA[Understand how the Odoo 19 CRM pipeline works: stage settings, probability, Days to rot, and what won and lost mean in the data.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-crm-managing-your-pipeline/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-crm-managing-your-pipeline/</guid>
+      <pubDate>Tue, 27 Oct 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Lead Management]]></category>
+      <category><![CDATA[Sales Management]]></category>
+      <category><![CDATA[Activities]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Losing Leads? Five Places They Leak and the Odoo 19 Fix]]></title>
+      <description><![CDATA[Losing leads is usually a process leak, not a people problem. Five places leads slip away and how Odoo 19 CRM closes each gap.]]></description>
+      <link>https://www.ankushkaura.in/blog/business-problem-losing-leads-odoo-crm/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/business-problem-losing-leads-odoo-crm/</guid>
+      <pubDate>Tue, 27 Oct 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[SME]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Lead Management]]></category>
+      <category><![CDATA[Sales Management]]></category>
+    </item>
     <item>
       <title><![CDATA[Getting Your Team to Actually Use the Odoo CRM]]></title>
       <description><![CDATA[How to get your team to use the CRM in Odoo 19: capture leads without typing, keep activities honest, and use reports the team trusts.]]></description>
