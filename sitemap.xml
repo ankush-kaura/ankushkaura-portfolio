@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.ankushkaura.in/</loc>
-    <lastmod>2026-10-27T04:30:00.000Z</lastmod>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/portfolio/</loc>
@@ -15,10 +15,26 @@
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blogs/</loc>
-    <lastmod>2026-10-27T04:30:00.000Z</lastmod>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blogs/2/</loc>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/activities-forecasting-and-reporting-in-odoo-crm/</loc>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/predictive-lead-scoring-in-odoo-crm/</loc>
+    <lastmod>2026-10-28T03:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/lead-generation-and-lead-mining-in-odoo-crm/</loc>
+    <lastmod>2026-10-28T02:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/how-to-set-up-crm-pipeline-odoo/</loc>
@@ -118,43 +134,43 @@
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/ai/</loc>
-    <lastmod>2026-08-03T04:18:06.160Z</lastmod>
+    <lastmod>2026-10-28T03:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/crm/</loc>
-    <lastmod>2026-10-27T04:30:00.000Z</lastmod>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/odoo/</loc>
-    <lastmod>2026-10-27T04:30:00.000Z</lastmod>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/odoo-19/</loc>
-    <lastmod>2026-10-27T04:30:00.000Z</lastmod>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/customer-management/</loc>
-    <lastmod>2026-10-27T03:30:00.000Z</lastmod>
+    <lastmod>2026-10-28T03:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/erp/</loc>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/lead-management/</loc>
+    <lastmod>2026-10-28T03:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/sales-management/</loc>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/ai-coding-assistants/</loc>
     <lastmod>2026-07-20T16:04:20.671Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/tag/erp/</loc>
-    <lastmod>2026-10-27T03:30:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ankushkaura.in/blog/tag/lead-management/</loc>
-    <lastmod>2026-10-27T04:30:00.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.ankushkaura.in/blog/tag/opinion/</loc>
     <lastmod>2026-04-06T06:56:14.228Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ankushkaura.in/blog/tag/sales-management/</loc>
-    <lastmod>2026-10-27T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/web-development/</loc>
@@ -177,12 +193,28 @@
     <lastmod>2026-10-27T02:30:00.000Z</lastmod>
   </url>
   <url>
+    <loc>https://www.ankushkaura.in/blog/tag/activities/</loc>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/business-automation/</loc>
+    <lastmod>2026-10-28T02:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/business-intelligence/</loc>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.ankushkaura.in/blog/tag/career/</loc>
     <lastmod>2025-11-13T07:30:56.548Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/claude/</loc>
     <lastmod>2026-08-03T04:18:06.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/data-analytics/</loc>
+    <lastmod>2026-10-28T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/devops/</loc>
