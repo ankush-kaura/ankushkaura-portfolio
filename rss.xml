@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 11:11:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 11:25:11 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[What Odoo Helpdesk Does and How a Ticket Moves Through It]]></title>
+      <description><![CDATA[Odoo Helpdesk explained for Odoo 19: teams, stages, channels, assignment, SLA policies and ratings, and what is configuration versus code.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-helpdesk/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk/</guid>
+      <pubDate>Thu, 29 Oct 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Support]]></category>
+      <category><![CDATA[Customer Support]]></category>
+      <category><![CDATA[Customer Service]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Customer Management]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo CRM Sales Mistakes You Can Spot in Your Own Data]]></title>
+      <description><![CDATA[Common Odoo CRM sales mistakes and how to find each one in your own data with filters, groupings and reports in Odoo 19, plus how to clean up.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-crm-sales-mistakes/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-crm-sales-mistakes/</guid>
+      <pubDate>Thu, 29 Oct 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Sales]]></category>
+      <category><![CDATA[Data Quality]]></category>
+      <category><![CDATA[Data Cleaning]]></category>
+      <category><![CDATA[Activities]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[How Odoo Marketing Feeds the CRM: UTMs, Campaigns, Win-Backs]]></title>
+      <description><![CDATA[How Odoo 19 Marketing connects to CRM: UTM fields on every lead, attribution reports, lost lead win-back emails and Marketing Automation.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-marketing-meets-crm/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-marketing-meets-crm/</guid>
+      <pubDate>Thu, 29 Oct 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Marketing]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Lead Management]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[ERP]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo CRM Reports: Which One Answers Which Sales Question]]></title>
       <description><![CDATA[A guide to Odoo 19 CRM reporting: Forecast, Pipeline Analysis, win/loss and unattended leads reports, and the fields behind each number.]]></description>
