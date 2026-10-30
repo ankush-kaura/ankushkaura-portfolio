@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:25:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:16:54 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Helpdesk for Clinics and Vet Practices: Admin Requests]]></title>
+      <description><![CDATA[How Odoo 19 Helpdesk can route the administrative requests of clinics and vet practices, and where privacy and clinical records need care.]]></description>
+      <link>https://www.ankushkaura.in/blog/helpdesk-odoo-vertical-support/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/helpdesk-odoo-vertical-support/</guid>
+      <pubDate>Fri, 30 Oct 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Customer Service]]></category>
+      <category><![CDATA[Healthcare]]></category>
+      <category><![CDATA[Veterinary]]></category>
+      <category><![CDATA[Support]]></category>
+      <category><![CDATA[SME]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Helpdesk Mistakes That Quietly Frustrate Customers]]></title>
+      <description><![CDATA[Common Odoo Helpdesk mistakes in Odoo 19, from stages that never close to SLA priority traps and duplicate contacts, with the setting behind each.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-helpdesk-mistakes/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk-mistakes/</guid>
+      <pubDate>Fri, 30 Oct 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Support]]></category>
+      <category><![CDATA[Contacts]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Customer Support]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[How to Set Up Odoo Helpdesk: Teams, Channels and Stages]]></title>
+      <description><![CDATA[Set up Odoo 19 Helpdesk step by step: create a team, turn on email, live chat and the website form, assign tickets, close them and add SLAs.]]></description>
+      <link>https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/</guid>
+      <pubDate>Fri, 30 Oct 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Support]]></category>
+      <category><![CDATA[Customer Support]]></category>
+      <category><![CDATA[Website]]></category>
+      <category><![CDATA[How To]]></category>
+    </item>
     <item>
       <title><![CDATA[What Odoo Helpdesk Does and How a Ticket Moves Through It]]></title>
       <description><![CDATA[Odoo Helpdesk explained for Odoo 19: teams, stages, channels, assignment, SLA policies and ratings, and what is configuration versus code.]]></description>

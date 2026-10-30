@@ -1,0 +1,215 @@
+<!DOCTYPE html><script>(function(){const slug = "how-to-set-up-helpdesk-odoo";
+const title = "How to Set Up Odoo Helpdesk: Teams, Channels and Stages";
+
+  // Track blog view on page load
+  if (window.gtag) {
+    window.gtag('event', 'blog_view', {
+      blog_slug: slug,
+      blog_title: title,
+    })
+  }
+})();</script> <html lang="en"> <head><meta charset="utf-8"><meta name="robots" content="index, follow"><meta name="googlebot" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Astro v5.15.1"><meta name="author" content="Ankush Kaura"><meta name="language" content="en-US"><meta name="keywords" content="Odoo, Odoo 19, Setup, Helpdesk, Support, Customer Support, Website, How To"><link rel="canonical" href="https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/"><link rel="shortcut icon" type="image/svg+xml" href="https://www.ankushkaura.in/favicon.svg"><link rel="sitemap" type="application/xml" href="https://www.ankushkaura.in/sitemap.xml"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.ankushkaura.in/rss.xml"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#000000"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Ankush Kaura"><title>How to Set Up Odoo Helpdesk: Teams, Channels and Stages</title><meta name="title" content="How to Set Up Odoo Helpdesk: Teams, Channels and Stages"><meta name="description" content="Set up Odoo 19 Helpdesk step by step: create a team, turn on email, live chat and the website form, assign tickets, close them and add SLAs."><!-- Enhanced Open Graph --><meta property="og:type" content="article"><meta property="og:url" content="https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/"><meta property="og:site_name" content="Ankush Kaura - Full-Stack Developer"><meta property="og:title" content="How to Set Up Odoo Helpdesk: Teams, Channels and Stages"><meta property="og:description" content="Set up Odoo 19 Helpdesk step by step: create a team, turn on email, live chat and the website form, assign tickets, close them and add SLAs."><meta property="og:image" content="https://www.ankushkaura.in/og/blog-how-to-set-up-helpdesk-odoo.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_US"><meta property="article:published_time" content="2026-10-30T08:00:00+05:30"><meta property="article:modified_time" content="2026-10-30T08:00:00+05:30"><meta property="article:author" content="Ankush Kaura"><meta property="article:tag" content="Odoo"><meta property="article:tag" content="Odoo 19"><meta property="article:tag" content="Setup"><meta property="article:tag" content="Helpdesk"><meta property="article:tag" content="Support"><meta property="article:tag" content="Customer Support"><meta property="article:tag" content="Website"><meta property="article:tag" content="How To"><!-- Enhanced Twitter Cards --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/"><meta property="twitter:site" content="@ankushkaura"><meta property="twitter:creator" content="@ankushkaura"><meta property="twitter:title" content="How to Set Up Odoo Helpdesk: Teams, Channels and Stages"><meta property="twitter:description" content="Set up Odoo 19 Helpdesk step by step: create a team, turn on email, live chat and the website form, assign tickets, close them and add SLAs."><meta property="twitter:image" content="https://www.ankushkaura.in/og/blog-how-to-set-up-helpdesk-odoo.png"><!-- Structured Data (JSON-LD) --><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","name":"How to Set Up Odoo Helpdesk: Teams, Channels and Stages","headline":"How to Set Up Odoo Helpdesk: Teams, Channels and Stages","description":"Set up Odoo 19 Helpdesk step by step: create a team, turn on email, live chat and the website form, assign tickets, close them and add SLAs.","url":"https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/","image":"https://www.ankushkaura.in/og/blog-how-to-set-up-helpdesk-odoo.png","inLanguage":"en","author":{"@type":"Person","name":"Ankush Kaura","url":"https://www.ankushkaura.in/","sameAs":["https://github.com/ankush-kaura","https://www.linkedin.com/in/ankush-kaura-4893a93a6/","https://twitter.com/ankushkaura"]},"publisher":{"@type":"Person","name":"Ankush Kaura","url":"https://www.ankushkaura.in/"},"datePublished":"2026-10-30T08:00:00+05:30","dateModified":"2026-10-30T08:00:00+05:30","keywords":"Odoo, Odoo 19, Setup, Helpdesk, Support, Customer Support, Website, How To","wordCount":1266,"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/"},"isPartOf":{"@type":"WebSite","name":"Ankush Kaura - Full-Stack Developer","url":"https://www.ankushkaura.in/"}}</script><!-- Breadcrumb Structured Data --><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ankushkaura.in/"},{"@type":"ListItem","position":2,"name":"Writing","item":"https://www.ankushkaura.in/blogs/"},{"@type":"ListItem","position":3,"name":"How to Set Up Odoo Helpdesk: Teams, Channels and Stages","item":"https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/"}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where do I create a Helpdesk team in Odoo 19?","acceptedAnswer":{"@type":"Answer","text":"Go to Helpdesk ‣ Configuration ‣ Helpdesk Teams and click New. Most of the setup, including channels, assignment, SLA policies, ratings and closing rules, lives on that one form."}},{"@type":"Question","name":"Why is my ticket not assigned to anyone?","acceptedAnswer":{"@type":"Answer","text":"If Automatic Assignment is set to dispatch by tags, a ticket without a tag stays unassigned. Add a tag to the ticket, or choose one of the workload-based methods instead."}},{"@type":"Question","name":"Can customers submit tickets without an account?","acceptedAnswer":{"@type":"Answer","text":"Yes, through the website form or the team's email alias, as long as the matching channel is enabled. Seeing their ticket later uses the link in the acknowledgment email, which does not need portal access."}}]}</script><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-S0RDSR9X3W"></script><script>(function(){const gaId = "G-S0RDSR9X3W";
+const pageTitle = "How to Set Up Odoo Helpdesk: Teams, Channels and Stages";
+const pageLocation = "https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/";
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+  gtag('config', gaId, {
+    page_title: pageTitle,
+    page_location: pageLocation,
+    send_page_view: true,
+    enhanced_measurement: {
+      scrolls: true,
+      outbound_clicks: true,
+      site_search: true,
+      video_engagement: true,
+      file_downloads: true,
+    },
+  })
+})();</script><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/assets/ClientRouter.astro_astro_type_script_index_0_lang.elfUsALL.js"></script><script type="module" src="/assets/WebVitals.astro_astro_type_script_index_0_lang.Crpxd1aU.js"></script><link rel="stylesheet" href="/assets/styles.css"><style>[data-astro-transition-scope="astro-mlohbwkr-1"] { view-transition-name: astro-mlohbwkr-1; }@layer astro { ::view-transition-old(astro-mlohbwkr-1) { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }::view-transition-new(astro-mlohbwkr-1) { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back]::view-transition-old(astro-mlohbwkr-1) { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back]::view-transition-new(astro-mlohbwkr-1) { 
+	animation-name: astroFadeIn, astroSlideFromLeft; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-name: astroFadeIn, astroSlideFromLeft; }</style></head> <body class="min-h-screen bg-background font-sans antialiased"> <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2" data-astro-cid-svspnz7o>
+Skip to main content
+</a>  <div class="flex flex-col items-center justify-center"> <script>
+  // Open the ⌘K command palette from the header button (delegated so it
+  // survives Astro view-transition swaps without duplicate bindings).
+  if (!window.__cmdkBound) {
+    window.__cmdkBound = true
+    document.addEventListener('click', function (e) {
+      const t = e.target
+      if (t && t.closest && t.closest('#cmdk-trigger')) {
+        window.dispatchEvent(new CustomEvent('open-command-palette'))
+      }
+    })
+  }
+
+  document.addEventListener('astro:after-swap', function () {
+    if (localStorage.getItem('theme') === 'dark')
+      document.documentElement.classList.toggle('dark', true)
+  })
+
+  const getThemePreference = () => localStorage.getItem('theme')
+  const isDark = getThemePreference() === 'dark'
+  document.documentElement.classList[isDark ? 'add' : 'remove']('dark')
+</script> <header class="sticky top-0 z-50 w-full border-b border-border/60 bg-background/70 backdrop-blur-xl"> <div class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6"> <a href="/" class="group flex items-center gap-2.5" aria-label="Home"> <span class="grid size-8 place-items-center rounded-lg bg-foreground font-mono text-sm font-bold text-background transition-transform duration-300 group-hover:rotate-6">AK</span> <span class="text-sm font-semibold tracking-tight">Ankush Kaura</span> </a> <nav class="hidden items-center gap-1 md:flex"> <a href="/portfolio" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors text-muted-foreground hover:bg-accent hover:text-foreground"> Work </a><a href="/stack" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors text-muted-foreground hover:bg-accent hover:text-foreground"> Stack </a><a href="/blogs" aria-current="page" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors bg-accent text-foreground"> Writing </a> </nav> <div class="flex items-center gap-1.5 sm:gap-2"> <button type="button" id="cmdk-trigger" class="inline-flex items-center gap-2 rounded-lg border border-border bg-secondary/50 px-2.5 py-1.5 text-sm text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground" aria-label="Open command palette (Command or Control + K)"> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg> <span class="hidden sm:inline">Search</span> <kbd class="hidden rounded border border-border bg-background px-1 font-mono text-[10px] sm:inline">⌘K</kbd> </button> <a href="https://github.com/ankush-kaura" target="_blank" rel="noreferrer" class="grid size-9 place-items-center rounded-lg text-muted-foreground transition-colors hover:bg-accent hover:text-foreground" aria-label="GitHub Profile"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.021C22 6.484 17.523 2 12 2z"></path></svg> </a> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="1LJTyf" prefix="r3" component-url="/assets/ThemeToggle.W6oPJi_J.js" component-export="ModeToggle" renderer-url="/assets/client.rDww93b6.js" props="{&quot;data-astro-transition-persist&quot;:[0,&quot;astro-vwda23fb-3&quot;]}" ssr client="load" opts="{&quot;name&quot;:&quot;ModeToggle&quot;,&quot;value&quot;:true}" data-astro-transition-persist="astro-vwda23fb-3" await-children><button class="inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-medium transition-[background-color,border-color,color,transform] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 active:translate-y-px border border-border bg-transparent hover:border-primary/40 hover:bg-accent hover:text-accent-foreground h-10 w-10" type="button" id="radix-_r3R_0_" aria-haspopup="menu" aria-expanded="false" data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg><span class="sr-only">Toggle theme</span></button><!--astro:end--></astro-island> </div> </div> </header> <div id="main-content">  <main class="flex min-h-[80vh] flex-auto flex-col" data-astro-transition-scope="astro-mlohbwkr-1"> <div class="pb-3 pt-3 sm:pb-4 sm:pt-4 md:pb-6 md:pt-6"> <div class="w-full h-full mx-auto px-3 sm:px-4 md:px-6 max-w-screen-md">   <div class="mb-4 sm:mb-6"> <a href="/blogs/" class="text-sm text-primary hover:underline sm:text-base">&larr; Back to Blogs</a> </div> <h1 class="scroll-m-20 text-2xl font-extrabold tracking-tight sm:text-3xl lg:text-4xl xl:text-5xl"> How to Set Up Odoo Helpdesk: Teams, Channels and Stages </h1> <p class="mt-2 text-base text-muted-foreground sm:text-lg"> Set up Odoo 19 Helpdesk step by step: create a team, turn on email, live chat and the website form, assign tickets, close them and add SLAs. </p> <p class="mt-2 text-sm text-gray-500">
+Published on 30 Oct 2026 &middot; 6 min read </p> <ul class="flex flex-wrap gap-2 mt-3" aria-label="Topics"><li><a href="/blog/tag/odoo/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Odoo</a></li><li><a href="/blog/tag/odoo-19/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Odoo 19</a></li><li><a href="/blog/tag/setup/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Setup</a></li><li><a href="/blog/tag/helpdesk/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Helpdesk</a></li><li><a href="/blog/tag/support/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Support</a></li><li><a href="/blog/tag/customer-support/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Customer Support</a></li><li><a href="/blog/tag/website/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Website</a></li><li><a href="/blog/tag/how-to/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">How To</a></li></ul>   </div> </div> <div class="flex-1 py-3 sm:py-4 md:py-6"> <div class="w-full h-full mx-auto px-3 sm:px-4 md:px-6 max-w-screen-md">   <article class="prose max-w-none dark:prose-invert"> <img src="https://images.ctfassets.net/2y2ueqm0l7y8/5SRi80d1GcLADqW38b73mP/cc7641094fa618132ab6dc05a28754d1/ankush-kaura-animated.gif" alt="Animated portrait of Ankush Kaura" class="mb-6 h-48 w-full rounded-lg object-cover sm:mb-8 sm:h-56 lg:h-64 xl:h-72" loading="eager" decoding="async" fetchpriority="high" width="1200" height="630" onerror="this.onerror=null;this.src='https://images.ctfassets.net/2y2ueqm0l7y8/5SRi80d1GcLADqW38b73mP/cc7641094fa618132ab6dc05a28754d1/ankush-kaura-animated.gif';this.alt='Animated portrait of Ankush Kaura'"> <p><strong>Short answer:</strong> Open <strong>Helpdesk ‣ Configuration ‣ Helpdesk Teams</strong>, click <strong>New</strong>, name the team, choose who can see it, switch on at least one channel (<strong>Email Alias</strong>, <strong>Live Chat</strong> or <strong>Website Form</strong>), and decide how tickets are assigned. Then check that one stage is folded so tickets can actually close, and add SLA policies and ratings if you need them. Helpdesk is an Enterprise app, so none of this exists on a Community database.</p>
+<h2 id="applies-to">Applies to</h2>
+<ul>
+<li><strong>Odoo version:</strong> Odoo 19. I compared the same pages in the 20.0 documentation. Every step below reads the same there, apart from the Field Service wording under after-sales, which I leave out of this setup.</li>
+<li><strong>Edition:</strong> Enterprise only. Menu paths and field names come from the documentation, because the Helpdesk code is not in the public Community repository.</li>
+<li><strong>Apps:</strong> Helpdesk, plus Website for the form, Live Chat if you want chat, and Settings for working hours.</li>
+</ul>
+<h2 id="before-you-start">Before you start</h2>
+<p>Decide four things on paper first. They are cheap to settle now and awkward to change once tickets exist.</p>
+<ol>
+<li><strong>How many teams?</strong> One team per distinct queue that has its own people and rules, not one per product line by reflex. A team is also the unit for SLAs, ratings and closing rules.</li>
+<li><strong>Who may see the tickets?</strong> The team description is shown on the public form, so keep it free of internal wording.</li>
+<li><strong>What does closed mean?</strong> Pick the stage that counts as finished. Odoo treats a stage as closed only if it is folded in the Kanban view.</li>
+<li><strong>Which channels will you actually watch?</strong> An unmonitored live chat is worse than none.</li>
+</ol>
+<p>If you are on-premise, aliases need your own incoming mail server. On Odoo Online and Odoo.sh the documented steps work as written.</p>
+<p>If another system needs to create tickets, I would begin with the documented routes, email to the alias or the website form, before thinking about custom code. Both are configuration.</p>
+<h2 id="step-by-step">Step by step</h2>
+<ol>
+<li>Go to <strong>Helpdesk ‣ Configuration ‣ Helpdesk Teams</strong> and click <strong>New</strong>.</li>
+<li>Enter a <strong>Name</strong>. Add a description only if you are happy for customers to read it, and pick the <strong>Company</strong> if you run several.</li>
+<li>Under <strong>Visibility</strong>, choose one of: invited internal users (private), all internal users (company), or invited portal users and all internal users (public). Choose public if you want a Help Center or portal tickets.</li>
+<li>In <strong>Follow All Team’s Tickets</strong>, add anyone who should be notified of every update. External contacts can be added but, on a private team, they will be notified without being able to open the ticket in the portal.</li>
+<li>Tick <strong>Automatic Assignment</strong> if you want tickets handed out. Choose equal total tickets, equal open tickets, or <strong>Dispatch tickets based on tags</strong>. For the tag option, click <strong>Configure tags handled by team members</strong> and link tags to people.</li>
+<li>Add <strong>Team Members</strong>, or leave the field empty to include everyone with suitable access rights.</li>
+<li>Scroll to <strong>Channels</strong> and tick <strong>Email Alias</strong>. Edit the <strong>Alias</strong> field if the default is not what you want.</li>
+<li>Tick <strong>Website Form</strong> under <strong>Help Center</strong>. After saving, use the <strong>Go to Website</strong> smart button, click <strong>Edit</strong>, and add or remove fields in the sidebar. Toggle <strong>Unpublished</strong> to <strong>Published</strong> when you are done.</li>
+<li>If you want chat, tick <strong>Live Chat</strong> and use <strong>Configure Live Chat Channel</strong> to set operators and rules. Operators type <code>/ticket</code> inside a conversation to create a ticket.</li>
+<li>Open the team’s pipeline from the dashboard. For the stage that means finished, hover over the heading, click the gear, choose <strong>Edit</strong>, tick <strong>Folded in Kanban</strong> and <strong>Save &#x26; Close</strong>. Do not use the gear’s separate <strong>Fold</strong> option, which only hides the column for now.</li>
+<li>Under <strong>Performance</strong>, check that <strong>SLA Policies</strong> is on (it is on by default for new teams), and tick <strong>Customer Ratings</strong> if you want feedback.</li>
+<li>Under <strong>Self-Service</strong>, decide on <strong>Automatic Closing</strong> and <strong>Closure by Customers</strong>.</li>
+<li>Create a first SLA policy under <strong>Helpdesk ‣ Configuration ‣ SLA Policies</strong>. Choose the <strong>Helpdesk Team</strong>, set the <strong>Priority</strong> criteria, pick a <strong>Reach Stage</strong>, and enter the time allowed. Keep it to one or two policies at the start. If a ticket matches several, only the earliest deadline is shown on it.</li>
+</ol>
+<p>Priority matters more than it looks. The criteria field on an SLA only matches tickets once their star rating equals the policy’s, and a policy with no priority selected applies only to Low tickets with zero stars. So the way agents set stars becomes part of the setup, and it is worth agreeing what two stars mean before you go live.</p>
+<h2 id="worked-example">Worked example</h2>
+<p>Take a bicycle shop with an online store. It creates one team, Bike Care, with public visibility, because customers should see their tickets in the portal. It turns on the email alias and the website form, and skips chat for now.</p>
+<p>The shop sets assignment to equal open tickets across its two workshop staff. It folds the last stage, Solved, and enables <strong>Automatic Closing</strong> with the <strong>In Stages</strong> field limited to the waiting-for-customer stage, so tickets stuck in “we are working on it” never close themselves by accident. It ticks <strong>Closure by Customers</strong> so a rider can close their own ticket from the portal.</p>
+<p>The website form gets one extra required field for the frame number, added from the sidebar with <strong>+ Field</strong>.</p>
+<h2 id="what-you-should-see">What you should see</h2>
+<ul>
+<li>The team appears on the Helpdesk dashboard, and its pipeline opens with your stages.</li>
+<li>Sending an email to the alias creates a ticket whose title is the subject line and whose body appears in <strong>Description</strong> and the chatter.</li>
+<li>Submitting the website form creates a ticket and the customer receives the <strong>Request Acknowledgment</strong> email with a <strong>View the ticket</strong> link.</li>
+<li>Tickets that match an SLA policy show a tag with a deadline. The tag turns green when the Reach Stage is hit.</li>
+<li>Moving a ticket to the folded stage marks it closed.</li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p><strong>The Go to Website smart button is missing.</strong> The docs say the team page may need to be saved and refreshed after enabling Website Form. If a Help Center is published, the button lands there first, and <strong>Contact Us</strong> takes you to the form.</p>
+<p><strong>Tickets stay unassigned.</strong> Check the assignment mode. With tag dispatch, an untagged ticket is never assigned. Also check Time Off: people on leave are skipped.</p>
+<p><strong>Customers cannot close their tickets.</strong> The <strong>Close Ticket</strong> button only appears once <strong>Closure by Customers</strong> is ticked, and only in the portal view of the ticket.</p>
+<p><strong>Rating emails go out too early.</strong> The rating template should sit on a folded stage only. A stage that is not folded does not mean closed.</p>
+<p><strong>Portal users vanished from a team.</strong> Switching visibility away from public removes portal users as followers from the team and its tickets.</p>
+<p><strong>Chat settings do not appear.</strong> The first time Live Chat is enabled on a database, the page may need a manual save and refresh.</p>
+<h2 id="related-setup">Related setup</h2>
+<ul>
+<li><a href="/blog/odoo-helpdesk/">What Odoo Helpdesk does and how a ticket moves</a> gives the overview behind these steps.</li>
+<li><a href="/blog/how-to-set-up-crm-pipeline-odoo/">Setting up the CRM pipeline in Odoo</a> follows the same stage thinking if tickets will become opportunities.</li>
+</ul>
+<p>There is a longer screen by screen walkthrough of this on <a href="https://www.sajjalbajaj.in/blog/2026/09/28/how-to-set-up-helpdesk-odoo/">sajjalbajaj.in</a>.</p>
+<h2 id="official-references">Official references</h2>
+<ul>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk.html">Helpdesk (19.0)</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk/overview/receiving_tickets.html">Receiving tickets (19.0)</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk/advanced/close_tickets.html">Close tickets (19.0)</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk/overview/ratings.html">Customer ratings (19.0)</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk/overview/sla.html">Service level agreements (19.0)</a></li>
+</ul>
+<p><em>How this guide was checked: I read the Odoo 19 Helpdesk documentation pages listed above, compared them with the 20.0 versions, and matched every menu path and field name to the text. I did not run these steps on a live database, because Helpdesk needs an Enterprise licence.</em></p>
+<p>If you need support intake connected to a website or another system, see how I work on the <a href="/stack">stack</a> page.</p> </article> <section class="mt-12" aria-labelledby="faq-heading"> <h2 id="faq-heading" class="text-2xl font-semibold tracking-tight">
+Frequently asked questions
+</h2> <div class="mt-4 divide-y divide-border rounded-lg border border-border"> <details class="px-4 py-3"> <summary class="cursor-pointer font-medium">Where do I create a Helpdesk team in Odoo 19?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> Go to Helpdesk ‣ Configuration ‣ Helpdesk Teams and click New. Most of the setup, including channels, assignment, SLA policies, ratings and closing rules, lives on that one form. </p> </details><details class="px-4 py-3"> <summary class="cursor-pointer font-medium">Why is my ticket not assigned to anyone?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> If Automatic Assignment is set to dispatch by tags, a ticket without a tag stays unassigned. Add a tag to the ticket, or choose one of the workload-based methods instead. </p> </details><details class="px-4 py-3"> <summary class="cursor-pointer font-medium">Can customers submit tickets without an account?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> Yes, through the website form or the team&#39;s email alias, as long as the matching channel is enabled. Seeing their ticket later uses the link in the acknowledgment email, which does not need portal access. </p> </details> </div> </section><section class="mt-12" aria-labelledby="related-heading"> <h2 id="related-heading" class="text-2xl font-semibold tracking-tight">
+Keep reading
+</h2> <ul class="mt-4 grid gap-3 sm:grid-cols-2"> <li> <a href="/blog/odoo-helpdesk-mistakes/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Odoo Helpdesk Mistakes That Quietly Frustrate Customers</span> <span class="mt-1 block text-xs text-muted-foreground"> 30 Oct 2026 &middot; 5 min read
+</span> </a> </li><li> <a href="/blog/odoo-helpdesk/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">What Odoo Helpdesk Does and How a Ticket Moves Through It</span> <span class="mt-1 block text-xs text-muted-foreground"> 29 Oct 2026 &middot; 6 min read
+</span> </a> </li><li> <a href="/blog/how-to-set-up-crm-pipeline-odoo/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">How to Set Up a Sales Pipeline in Odoo 19 CRM, Step by Step</span> <span class="mt-1 block text-xs text-muted-foreground"> 27 Oct 2026 &middot; 6 min read
+</span> </a> </li><li> <a href="/blog/helpdesk-odoo-vertical-support/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Odoo Helpdesk for Clinics and Vet Practices: Admin Requests</span> <span class="mt-1 block text-xs text-muted-foreground"> 30 Oct 2026 &middot; 5 min read
+</span> </a> </li><li> <a href="/blog/odoo-crm-sales-mistakes/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Odoo CRM Sales Mistakes You Can Spot in Your Own Data</span> <span class="mt-1 block text-xs text-muted-foreground"> 29 Oct 2026 &middot; 5 min read
+</span> </a> </li><li> <a href="/blog/odoo-marketing-meets-crm/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">How Odoo Marketing Feeds the CRM: UTMs, Campaigns, Win-Backs</span> <span class="mt-1 block text-xs text-muted-foreground"> 29 Oct 2026 &middot; 5 min read
+</span> </a> </li> </ul> </section>  </div> </div> </main>  </div> <footer class="mt-20 w-full border-t border-border/60"> <div class="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 sm:px-6 md:flex-row md:items-center md:justify-between"> <div class="flex items-center gap-3"> <span class="grid size-8 place-items-center rounded-lg bg-foreground font-mono text-sm font-bold text-background">AK</span> <div class="text-sm"> <p class="font-semibold tracking-tight">Ankush Kaura</p> <p class="text-muted-foreground">
+Full-Stack Developer &amp; Solutions Architect
+</p> </div> </div> <nav class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm"> <a href="/portfolio" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Work </a><a href="/stack" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Stack </a><a href="/blogs" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Writing </a><a href="https://github.com/ankush-kaura" target="_blank" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> GitHub </a><a href="https://www.linkedin.com/in/ankush-kaura-4893a93a6/" target="_blank" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> LinkedIn </a> </nav> </div> <div class="border-t border-border/40"> <div class="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4 text-xs text-muted-foreground sm:flex-row sm:justify-between sm:px-6"> <div class="flex items-center gap-4"> <p>&copy; 2026 Ankush Kaura.</p> <a href="/privacy" class="transition-colors hover:text-foreground">Privacy</a> </div> <p class="font-mono">Built with Astro, React &amp; Tailwind.</p> </div> </div> </footer> </div> <script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();</script><astro-island uid="dNLH8" prefix="r2" component-url="/assets/CommandPalette.CtHeCJdd.js" component-export="default" renderer-url="/assets/client.rDww93b6.js" props="{&quot;data-astro-transition-persist&quot;:[0,&quot;astro-5g5eesqo-2&quot;]}" ssr client="idle" opts="{&quot;name&quot;:&quot;CommandPalette&quot;,&quot;value&quot;:true}" data-astro-transition-persist="astro-5g5eesqo-2"></astro-island> <script>
+      // Scroll-reveal via IntersectionObserver (no scroll listener; re-runs
+      // after view transitions; collapses to instant under reduced motion).
+      function initReveals() {
+        const els = document.querySelectorAll('.reveal:not(.is-visible)')
+        const reduce = window.matchMedia(
+          '(prefers-reduced-motion: reduce)',
+        ).matches
+        if (reduce || !('IntersectionObserver' in window)) {
+          els.forEach((el) => el.classList.add('is-visible'))
+          return
+        }
+        const io = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible')
+                obs.unobserve(entry.target)
+              }
+            })
+          },
+          { threshold: 0.02, rootMargin: '0px 0px -4% 0px' },
+        )
+        els.forEach((el) => io.observe(el))
+        // Safety net: never let anything stay hidden. Reveal in/near the
+        // viewport shortly after load in case IO misses tall elements.
+        setTimeout(() => {
+          document
+            .querySelectorAll('.reveal:not(.is-visible)')
+            .forEach((el) => {
+              if (el.getBoundingClientRect().top < window.innerHeight * 1.1) {
+                el.classList.add('is-visible')
+              }
+            })
+        }, 500)
+      }
+      document.addEventListener('astro:page-load', initReveals)
+      if (document.readyState !== 'loading') initReveals()
+      else document.addEventListener('DOMContentLoaded', initReveals)
+    </script> <script>
+      // Register service worker for PWA support
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {
+              console.log('ServiceWorker registered:', registration.scope)
+            })
+            .catch((error) => {
+              console.log('ServiceWorker registration failed:', error)
+            })
+        })
+      }
+    </script> </body> </html>
