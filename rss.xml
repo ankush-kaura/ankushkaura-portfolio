@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 17:36:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 13:19:54 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Clinic Administration: Define Reception Access Carefully]]></title>
+      <description><![CDATA[Define Odoo reception access for healthcare, dental and veterinary administration with role boundaries, minimal data and practical permission reviews.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-clinic-reception-access-boundaries/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-clinic-reception-access-boundaries/</guid>
+      <pubDate>Mon, 02 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Healthcare]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[SME]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo POS Refunds: Reconcile the Return, Payment and Stock]]></title>
+      <description><![CDATA[Handle Odoo POS refunds with original order references, authorised return decisions and checks across stock, customer documents and payment settlement.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-pos-refunds-settlement/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-pos-refunds-settlement/</guid>
+      <pubDate>Mon, 02 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[POS]]></category>
+      <category><![CDATA[Retail]]></category>
+      <category><![CDATA[Accounting]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[From Ticket to Repair: Odoo Helpdesk Returns and Warranty Work]]></title>
+      <description><![CDATA[How an Odoo 19 Helpdesk ticket starts a return, a repair order or a credit note, and why the Under Warranty box is a decision, not a check.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-helpdesk-warranty-return-repair/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk-warranty-return-repair/</guid>
+      <pubDate>Mon, 02 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Repairs]]></category>
+      <category><![CDATA[Support]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Car Rentals: Handle Return Inspections and Damage Disputes]]></title>
       <description><![CDATA[Plan car rental returns in Odoo with vehicle identity, inspection evidence, deposit review and repair ownership before closing the customer agreement.]]></description>
