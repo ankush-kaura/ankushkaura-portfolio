@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 13:19:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:43:52 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Cold Chain Receiving: Record and Resolve Delivery Exceptions]]></title>
+      <description><![CDATA[Plan cold chain receiving in Odoo with lot identity, inspection evidence, exception ownership and verified stock holds before goods are released.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-cold-chain-receiving-exceptions/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-cold-chain-receiving-exceptions/</guid>
+      <pubDate>Tue, 03 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Quality]]></category>
+      <category><![CDATA[Food and Beverage]]></category>
+      <category><![CDATA[Stock Control]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo WhatsApp: Handle Failed Messages and Missed Replies]]></title>
+      <description><![CDATA[Build an Odoo WhatsApp exception process for failed messages, template problems and missed replies with clear ownership and controlled retry decisions.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-whatsapp-failed-messages-escalation/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-whatsapp-failed-messages-escalation/</guid>
+      <pubDate>Tue, 03 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[WhatsApp]]></category>
+      <category><![CDATA[Integration]]></category>
+      <category><![CDATA[Support]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Pet Supplies: Keep Cases, Packs and Individual Units Consistent]]></title>
+      <description><![CDATA[Keep pet supply purchasing and sales consistent in Odoo with clear inventory units, case conversions, pack identities and lot tracking decisions.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-pet-supplies-casepacks-units/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-pet-supplies-casepacks-units/</guid>
+      <pubDate>Tue, 03 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Retail]]></category>
+      <category><![CDATA[Pet Supplies]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Clinic Administration: Define Reception Access Carefully]]></title>
       <description><![CDATA[Define Odoo reception access for healthcare, dental and veterinary administration with role boundaries, minimal data and practical permission reviews.]]></description>

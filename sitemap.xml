@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.ankushkaura.in/</loc>
-    <lastmod>2026-11-02T04:30:00.000Z</lastmod>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/portfolio/</loc>
@@ -15,14 +15,26 @@
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blogs/</loc>
-    <lastmod>2026-11-02T04:30:00.000Z</lastmod>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/privacy/</loc>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blogs/2/</loc>
-    <lastmod>2026-11-02T04:30:00.000Z</lastmod>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/odoo-cold-chain-receiving-exceptions/</loc>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/odoo-whatsapp-failed-messages-escalation/</loc>
+    <lastmod>2026-11-03T03:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/odoo-pet-supplies-casepacks-units/</loc>
+    <lastmod>2026-11-03T02:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/odoo-clinic-reception-access-boundaries/</loc>
@@ -194,19 +206,27 @@
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/odoo/</loc>
-    <lastmod>2026-11-02T04:30:00.000Z</lastmod>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/odoo/2/</loc>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/odoo-19/</loc>
-    <lastmod>2026-11-02T04:30:00.000Z</lastmod>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/odoo-19/2/</loc>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/erp/</loc>
-    <lastmod>2026-11-02T04:30:00.000Z</lastmod>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/best-practices/</loc>
-    <lastmod>2026-11-02T04:30:00.000Z</lastmod>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/ai/</loc>
@@ -229,24 +249,24 @@
     <lastmod>2026-10-29T02:30:00.000Z</lastmod>
   </url>
   <url>
+    <loc>https://www.ankushkaura.in/blog/tag/support/</loc>
+    <lastmod>2026-11-03T03:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/helpdesk/</loc>
+    <lastmod>2026-11-03T03:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/inventory/</loc>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.ankushkaura.in/blog/tag/sales-management/</loc>
     <lastmod>2026-10-28T04:30:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/tag/support/</loc>
-    <lastmod>2026-11-02T02:30:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ankushkaura.in/blog/tag/helpdesk/</loc>
-    <lastmod>2026-11-02T02:30:00.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.ankushkaura.in/blog/tag/ai-coding-assistants/</loc>
     <lastmod>2026-07-20T16:04:20.671Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ankushkaura.in/blog/tag/inventory/</loc>
-    <lastmod>2026-11-02T03:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/opinion/</loc>
@@ -285,6 +305,10 @@
     <lastmod>2026-08-03T04:18:06.160Z</lastmod>
   </url>
   <url>
+    <loc>https://www.ankushkaura.in/blog/tag/quality/</loc>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.ankushkaura.in/blog/tag/sales/</loc>
     <lastmod>2026-11-01T04:30:00.000Z</lastmod>
   </url>
@@ -317,6 +341,10 @@
     <lastmod>2026-02-06T13:07:44.226Z</lastmod>
   </url>
   <url>
+    <loc>https://www.ankushkaura.in/blog/tag/food-and-beverage/</loc>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.ankushkaura.in/blog/tag/full-stack/</loc>
     <lastmod>2025-10-28T11:36:32.671Z</lastmod>
   </url>
@@ -337,12 +365,12 @@
     <lastmod>2026-08-03T04:18:06.160Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ankushkaura.in/blog/tag/quality/</loc>
-    <lastmod>2026-11-01T03:30:00.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.ankushkaura.in/blog/tag/repairs/</loc>
     <lastmod>2026-11-02T02:30:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/retail/</loc>
+    <lastmod>2026-11-03T02:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/self-hosting/</loc>
@@ -351,6 +379,10 @@
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/servers/</loc>
     <lastmod>2026-02-06T13:07:44.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ankushkaura.in/blog/tag/stock-control/</loc>
+    <lastmod>2026-11-03T04:30:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.ankushkaura.in/blog/tag/work/</loc>
