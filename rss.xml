@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 12:43:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 12:53:03 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Purchase Lead Times: Separate Plans from Supplier Promises]]></title>
+      <description><![CDATA[Use Odoo purchase lead times with supplier confirmations, receipt evidence and exception reviews so planned dates remain useful for operating decisions.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-purchase-lead-time-promises/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-purchase-lead-time-promises/</guid>
+      <pubDate>Wed, 04 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Supply Chain]]></category>
+      <category><![CDATA[Logistics]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Alternative RFQs: Compare the Offer Behind the Price]]></title>
+      <description><![CDATA[Compare alternative Odoo supplier quotations using consistent quantities, delivery promises, specification evidence and recorded award decisions.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-alternative-rfq-supplier-selection/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-alternative-rfq-supplier-selection/</guid>
+      <pubDate>Wed, 04 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Procurement]]></category>
+      <category><![CDATA[Supply Chain]]></category>
+      <category><![CDATA[SME]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Blanket Orders: Control Each Supplier Call Off]]></title>
+      <description><![CDATA[Use Odoo blanket orders for recurring purchases with clear call off quantities, agreed prices, validity dates and supplier commitment reviews.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-blanket-order-call-offs/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-blanket-order-call-offs/</guid>
+      <pubDate>Wed, 04 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Procurement]]></category>
+      <category><![CDATA[Supply Chain]]></category>
+      <category><![CDATA[SME]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Cold Chain Receiving: Record and Resolve Delivery Exceptions]]></title>
       <description><![CDATA[Plan cold chain receiving in Odoo with lot identity, inspection evidence, exception ownership and verified stock holds before goods are released.]]></description>
