@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 12:53:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:29:26 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Purchase Approvals: Define Authority Before Adding Steps]]></title>
+      <description><![CDATA[Design Odoo purchase approval boundaries around spending authority, exceptions, delegation and changed orders with evidence of who approved what.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-purchase-approval-boundaries/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-purchase-approval-boundaries/</guid>
+      <pubDate>Thu, 05 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Procurement]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Supplier Returns: Follow the Goods Through to the Credit]]></title>
+      <description><![CDATA[Coordinate Odoo supplier returns with lot identity, dispatch evidence, replacement decisions and vendor credits so physical and financial records agree.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-supplier-return-credit-reconciliation/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-supplier-return-credit-reconciliation/</guid>
+      <pubDate>Thu, 05 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Accounting]]></category>
+      <category><![CDATA[Supply Chain]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Vendor Bill Matching: Resolve Receipt and Price Exceptions]]></title>
+      <description><![CDATA[Review Odoo vendor bill exceptions by comparing the order, received quantities and supplier invoice before approving payment or correcting records.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-vendor-bill-matching-exceptions/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-vendor-bill-matching-exceptions/</guid>
+      <pubDate>Thu, 05 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Accounting]]></category>
+      <category><![CDATA[Invoicing]]></category>
+      <category><![CDATA[Finance]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Purchase Lead Times: Separate Plans from Supplier Promises]]></title>
       <description><![CDATA[Use Odoo purchase lead times with supplier confirmations, receipt evidence and exception reviews so planned dates remain useful for operating decisions.]]></description>
@@ -664,20 +709,6 @@ That being said, I really care about using AI as a tool, rather than a replaceme
       <category><![CDATA[Full-Stack]]></category>
       <category><![CDATA[Scalability]]></category>
       <category><![CDATA[Web Development]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Why Is AI Design Bad ?]]></title>
-      <description><![CDATA[AI design tools are everywhere now. If you’re a designer, you’ve probably used a handful of them to erase a background, clean up a layer stack, or power through a tedious round of resizing. Some features genuinely speed things up, but a lot of the biggest “design for you” promises bring way more clutter than insight. Let’s break down why design is so hard for AI and where it can actually help.
-
-The design challenge AI hasn’t solved (yet)
-AI’s sweet spot is anything that runs on clear rules.]]></description>
-      <link>https://www.ankushkaura.in/blog/why-is-ai-design-bad/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/why-is-ai-design-bad/</guid>
-      <pubDate>Thu, 23 Oct 2025 18:30:00 GMT</pubDate>
-      <category><![CDATA[AI]]></category>
-      <category><![CDATA[Design]]></category>
-      <category><![CDATA[UX]]></category>
-      <category><![CDATA[Opinion]]></category>
     </item>
   </channel>
 </rss>
