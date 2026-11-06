@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 13:01:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:50:16 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Subcontracting: Resolve Component Shortages Before Receipt]]></title>
+      <description><![CDATA[Control Odoo subcontracting shortages with component dispatch records, supplier confirmation and finished goods evidence before accepting receipts.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-subcontractor-component-shortages/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-subcontractor-component-shortages/</guid>
+      <pubDate>Fri, 06 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Subcontracting]]></category>
+      <category><![CDATA[Manufacturing]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Purchase]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Dropshipping: Handle Missing and Partial Deliveries]]></title>
+      <description><![CDATA[Manage Odoo dropship exceptions with supplier delivery evidence, partial quantities and customer communication before closing orders or settling claims.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-dropship-delivery-exceptions/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-dropship-delivery-exceptions/</guid>
+      <pubDate>Fri, 06 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Dropshipping]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Sales]]></category>
+      <category><![CDATA[Logistics]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Vendor Price Updates: Avoid Duplicate and Incorrect Rates]]></title>
+      <description><![CDATA[Update Odoo vendor prices with stable identifiers, quantity tiers, approved source files and sample quotations that reveal incorrect or duplicate rates.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-vendor-price-import-revisions/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-vendor-price-import-revisions/</guid>
+      <pubDate>Fri, 06 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Purchase]]></category>
+      <category><![CDATA[Data Import]]></category>
+      <category><![CDATA[Procurement]]></category>
+      <category><![CDATA[Finance]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Purchase Approvals: Define Authority Before Adding Steps]]></title>
       <description><![CDATA[Design Odoo purchase approval boundaries around spending authority, exceptions, delegation and changed orders with evidence of who approved what.]]></description>
@@ -674,41 +719,6 @@ That being said, I really care about using AI as a tool, rather than a replaceme
       <category><![CDATA[Glossary]]></category>
       <category><![CDATA[Machine Learning]]></category>
       <category><![CDATA[LLM]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Lessons Learned from 7 Years in Web & App Development]]></title>
-      <description><![CDATA[Working in web and app development for over seven years has been an exciting rollercoaster — full of bugs, breakthroughs, and a lot of “aha!” moments. From writing my first line of code to leading complex full-stack projects, every phase has taught me something valuable. Here are some of the biggest lessons I’ve learned that might help both beginners and professionals in their own journeys.]]></description>
-      <link>https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/leasons-learned-from-seven-years-in-web-and-app-development/</guid>
-      <pubDate>Sun, 26 Oct 2025 18:30:00 GMT</pubDate>
-      <category><![CDATA[Career]]></category>
-      <category><![CDATA[Lessons Learned]]></category>
-      <category><![CDATA[Web Development]]></category>
-      <category><![CDATA[Full-Stack]]></category>
-    </item>
-    <item>
-      <title><![CDATA[REST vs GraphQL: Choosing the Right API Design]]></title>
-      <description><![CDATA[When building websites, mobile apps or any services that talk to a server, your application needs a way to fetch or update data. In tech‐speak this is done via an API (Application Programming Interface). But there’s more than one way to build an API. Two of the most popular approaches today are REST and GraphQL.]]></description>
-      <link>https://www.ankushkaura.in/blog/rest-vs-graphql/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/rest-vs-graphql/</guid>
-      <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
-      <category><![CDATA[REST]]></category>
-      <category><![CDATA[GraphQL]]></category>
-      <category><![CDATA[API Design]]></category>
-      <category><![CDATA[Backend]]></category>
-      <category><![CDATA[Web Development]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Building Scalable Full-Stack Apps with Node.js + React.js]]></title>
-      <description><![CDATA[In today’s world of web apps and mobile apps, users expect things to be fast, smooth, and reliable no matter how many people use them. To build that kind of app you often need a full-stack setup: frontend (what the user sees) + backend (what the server does) + database/storage + scaling. In this blog we’ll talk about using Node.js (for the backend) and React.js (for the frontend) to build apps which are scalable (i.e., can handle growth) and user-friendly.]]></description>
-      <link>https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/building-scalable-full-stack-apps-with-nodejs-plus-reactjs/</guid>
-      <pubDate>Fri, 24 Oct 2025 18:30:00 GMT</pubDate>
-      <category><![CDATA[Node.js]]></category>
-      <category><![CDATA[React]]></category>
-      <category><![CDATA[Full-Stack]]></category>
-      <category><![CDATA[Scalability]]></category>
-      <category><![CDATA[Web Development]]></category>
     </item>
   </channel>
 </rss>
