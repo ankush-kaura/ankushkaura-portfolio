@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:50:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:37:58 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Inventory Counts: Review Differences Before Applying Them]]></title>
+      <description><![CDATA[Review Odoo inventory count differences with clear cutoff timing, recount evidence, movement history and authorised adjustments before updating stock.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-inventory-count-variance-review/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-inventory-count-variance-review/</guid>
+      <pubDate>Sat, 07 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Stock Control]]></category>
+      <category><![CDATA[Warehouse Management]]></category>
+      <category><![CDATA[Accounting]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Barcode Receiving: Investigate Scans That Do Not Match]]></title>
+      <description><![CDATA[Resolve Odoo barcode receiving discrepancies by checking product identity, packaging quantities, lot data and the actual receipt before validation.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-barcode-receiving-discrepancies/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-barcode-receiving-discrepancies/</guid>
+      <pubDate>Sat, 07 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Barcode]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Warehouse Management]]></category>
+      <category><![CDATA[Purchase]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Expiry Dates: Separate Stock Rotation from Customer Shelf Life]]></title>
+      <description><![CDATA[Use Odoo lot dates and removal rules with customer shelf life requirements, receiving evidence and authorised exceptions before promising stock.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-expiry-removal-customer-shelf-life/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-expiry-removal-customer-shelf-life/</guid>
+      <pubDate>Sat, 07 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Food and Beverage]]></category>
+      <category><![CDATA[Stock Control]]></category>
+      <category><![CDATA[Supply Chain]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Subcontracting: Resolve Component Shortages Before Receipt]]></title>
       <description><![CDATA[Control Odoo subcontracting shortages with component dispatch records, supplier confirmation and finished goods evidence before accepting receipts.]]></description>
@@ -686,39 +731,6 @@ That being said, I really care about using AI as a tool, rather than a replaceme
       <category><![CDATA[CLI]]></category>
       <category><![CDATA[AI Coding Assistants]]></category>
       <category><![CDATA[Developer Tools]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Every Developer Needs to Self-Host]]></title>
-      <description><![CDATA[Self hosting is not just about saving money or going off grid. It is about learning the skills that power the internet and unlocking opportunities you might not even know exist yet.]]></description>
-      <link>https://www.ankushkaura.in/blog/every-developer-needs-to-self-host/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/every-developer-needs-to-self-host/</guid>
-      <pubDate>Mon, 17 Nov 2025 18:30:00 GMT</pubDate>
-      <category><![CDATA[Self-Hosting]]></category>
-      <category><![CDATA[DevOps]]></category>
-      <category><![CDATA[Servers]]></category>
-      <category><![CDATA[Developer Tools]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Nobody wants to be the boss anymore. Here’s why, in just 7 words]]></title>
-      <description><![CDATA[New research shows only 30% of workers want to become managers. Here’s why, and what your organization can do about it.]]></description>
-      <link>https://www.ankushkaura.in/blog/nobody-wants-to-be-the-boss-anymore/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/nobody-wants-to-be-the-boss-anymore/</guid>
-      <pubDate>Wed, 12 Nov 2025 18:30:00 GMT</pubDate>
-      <category><![CDATA[Management]]></category>
-      <category><![CDATA[Leadership]]></category>
-      <category><![CDATA[Career]]></category>
-      <category><![CDATA[Work]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Artificial intelligence glossary | 60+ terms to know]]></title>
-      <description><![CDATA[AI is moving fast and can be hard to keep up in real time. Use this glossary as a reference for AI terms.]]></description>
-      <link>https://www.ankushkaura.in/blog/artificial-intelligence-glossary/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/artificial-intelligence-glossary/</guid>
-      <pubDate>Sun, 09 Nov 2025 18:30:00 GMT</pubDate>
-      <category><![CDATA[AI]]></category>
-      <category><![CDATA[Glossary]]></category>
-      <category><![CDATA[Machine Learning]]></category>
-      <category><![CDATA[LLM]]></category>
     </item>
   </channel>
 </rss>
