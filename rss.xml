@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:37:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:49:58 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Unbuild Orders: Review Components Before Returning Them to Use]]></title>
+      <description><![CDATA[Use Odoo unbuild orders with product identity, correct bills of materials and inspection of recovered components before making them available again.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-unbuild-recovered-components/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-unbuild-recovered-components/</guid>
+      <pubDate>Sun, 08 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Manufacturing]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Quality]]></category>
+      <category><![CDATA[MRP]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Packages and Product Packaging: Keep the Identities Clear]]></title>
+      <description><![CDATA[Distinguish Odoo physical packages from product pack quantities so receiving, internal moves and shipping records describe what staff actually handle.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-packages-vs-product-packaging/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-packages-vs-product-packaging/</guid>
+      <pubDate>Sun, 08 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Barcode]]></category>
+      <category><![CDATA[Logistics]]></category>
+      <category><![CDATA[Warehouse Management]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Putaway Capacity: Plan for Full and Unsuitable Locations]]></title>
+      <description><![CDATA[Use Odoo storage categories and putaway rules with accurate capacities and a clear overflow process when recommended locations cannot accept goods.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-putaway-capacity-overflow/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-putaway-capacity-overflow/</guid>
+      <pubDate>Sun, 08 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Warehouse Management]]></category>
+      <category><![CDATA[Stock Control]]></category>
+      <category><![CDATA[Logistics]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Inventory Counts: Review Differences Before Applying Them]]></title>
       <description><![CDATA[Review Odoo inventory count differences with clear cutoff timing, recount evidence, movement history and authorised adjustments before updating stock.]]></description>
@@ -694,43 +739,6 @@ That being said, I really care about using AI as a tool, rather than a replaceme
       <category><![CDATA[Critical Thinking]]></category>
       <category><![CDATA[Productivity]]></category>
       <category><![CDATA[Opinion]]></category>
-    </item>
-    <item>
-      <title><![CDATA[How a 3D Printer With AI Became the MVP of My Server Management Stack]]></title>
-      <description><![CDATA[Running infrastructure feels like a full-contact sport. One bad outage and your SLAs go up in flames. Scaling never happens when you want it to. And hardware failures? They love showing up at 3 AM like they’re doing you a favor. I hit a point where I needed a real shift not another dashboard with neon graphs, but an actual co-pilot for ops.
-]]></description>
-      <link>https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-a-3d-printer-with-ai-became-the-mvp-of-my-server-management-stack/</guid>
-      <pubDate>Wed, 04 Feb 2026 18:30:00 GMT</pubDate>
-      <category><![CDATA[AI]]></category>
-      <category><![CDATA[Self-Hosting]]></category>
-      <category><![CDATA[Servers]]></category>
-      <category><![CDATA[3D Printing]]></category>
-      <category><![CDATA[DevOps]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Single Sign-On vs “Login with Google”: What Really Happens When You Delete Your Google Account]]></title>
-      <description><![CDATA[Most of us click “Continue with Google” without thinking twice. It’s fast. It’s convenient. It feels safe.]]></description>
-      <link>https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/single-sign-on-vs-login-with-google-what-really-happens-when-you-delete-your-google-account/</guid>
-      <pubDate>Thu, 15 Jan 2026 18:30:00 GMT</pubDate>
-      <category><![CDATA[Authentication]]></category>
-      <category><![CDATA[Single Sign-On]]></category>
-      <category><![CDATA[Security]]></category>
-      <category><![CDATA[Google]]></category>
-      <category><![CDATA[Web Development]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Build and Use Mistral Vibe — The CLI Coding Assistant]]></title>
-      <description><![CDATA[Mistral Vibe is a modern command-line coding assistant that lets you query, explore, and modify your codebase using natural language right in the terminal. It’s like having a smart junior dev that lives in your shell and understands your whole repo.In this walkthrough, we’ll break down how to set it up, configure it, and start using it — so you can share this on your blog with no fluff and all the practicals.]]></description>
-      <link>https://www.ankushkaura.in/blog/build-and-use-mistral-vibe-cli-coding-assistant/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/build-and-use-mistral-vibe-cli-coding-assistant/</guid>
-      <pubDate>Tue, 16 Dec 2025 18:30:00 GMT</pubDate>
-      <category><![CDATA[AI]]></category>
-      <category><![CDATA[Mistral]]></category>
-      <category><![CDATA[CLI]]></category>
-      <category><![CDATA[AI Coding Assistants]]></category>
-      <category><![CDATA[Developer Tools]]></category>
     </item>
   </channel>
 </rss>
