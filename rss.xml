@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:44:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:24:11 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Subscription Payment Failures: Check Before Retrying]]></title>
+      <description><![CDATA[Investigate Odoo subscription payment failures using provider evidence, invoice status and exception ownership before resuming automated renewals.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-subscription-payment-failure-review/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-subscription-payment-failure-review/</guid>
+      <pubDate>Tue, 10 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Subscriptions]]></category>
+      <category><![CDATA[Accounting]]></category>
+      <category><![CDATA[Invoicing]]></category>
+      <category><![CDATA[Customer Support]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Timesheet Billing: Review Caps, Nonbillable Work and Corrections]]></title>
+      <description><![CDATA[Review Odoo timesheet billing against agreed scope, commercial caps and task links so recorded effort and customer invoices remain explainable.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-timesheet-billing-caps/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-timesheet-billing-caps/</guid>
+      <pubDate>Tue, 10 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Timesheets]]></category>
+      <category><![CDATA[Project]]></category>
+      <category><![CDATA[Sales]]></category>
+      <category><![CDATA[Invoicing]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Milestone Invoicing: Connect Billing to Accepted Work]]></title>
+      <description><![CDATA[Connect Odoo milestone invoicing with clear deliverables, acceptance evidence and sales order quantities before preparing each customer invoice.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-milestone-invoice-acceptance/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-milestone-invoice-acceptance/</guid>
+      <pubDate>Tue, 10 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Project]]></category>
+      <category><![CDATA[Sales]]></category>
+      <category><![CDATA[Invoicing]]></category>
+      <category><![CDATA[Accounting]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Manufacturing Backorders: Close Only What Was Produced]]></title>
       <description><![CDATA[Handle partial Odoo manufacturing with accurate completed quantities, remaining demand and component evidence so production backorders remain meaningful.]]></description>
@@ -713,42 +758,6 @@ So I'm changing a few things about how I work. I'm actually reading the code my 
       <category><![CDATA[Security]]></category>
       <category><![CDATA[Supply Chain]]></category>
       <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[The 4 AI Agent Loops in Claude Code (Explained Simply)]]></title>
-      <description><![CDATA[A plain-English guide to the four AI agent loop types in Claude Code: turn-based, goal-based, time-based, and proactive. The one question that picks the right one, easy examples for each, and the mistakes that break loops in practice.]]></description>
-      <link>https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/the-4-ai-agent-loops-in-claude-code/</guid>
-      <pubDate>Sun, 19 Jul 2026 18:30:00 GMT</pubDate>
-      <category><![CDATA[AI]]></category>
-      <category><![CDATA[Claude Code]]></category>
-      <category><![CDATA[AI Agents]]></category>
-      <category><![CDATA[AI Coding Assistants]]></category>
-      <category><![CDATA[Developer Tools]]></category>
-    </item>
-    <item>
-      <title><![CDATA[How OpenAI Uses Codex: 7 Real-World Engineering Use Cases and Best Practices]]></title>
-      <description><![CDATA[OpenAI's engineering teams use Codex daily across Security, Product, Frontend, API, Infrastructure, and Performance Engineering. This article explores 7 key use cases  from code understanding and refactoring to performance optimization and exploration  along with best practices that help teams move faster, write better code, and manage complexity at scale.]]></description>
-      <link>https://www.ankushkaura.in/blog/how-openai-uses-codex-engineering-use-cases/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-openai-uses-codex-engineering-use-cases/</guid>
-      <pubDate>Sat, 16 May 2026 18:30:00 GMT</pubDate>
-      <category><![CDATA[AI]]></category>
-      <category><![CDATA[OpenAI]]></category>
-      <category><![CDATA[Codex]]></category>
-      <category><![CDATA[AI Coding Assistants]]></category>
-      <category><![CDATA[Engineering]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Ghost in the machine]]></title>
-      <description><![CDATA[I’ve always been a bit of a skeptic when an AI says it’s "happy to help." I figured it was just a sophisticated version of a pull-string doll pre-programmed politeness designed to make us feel at home.]]></description>
-      <link>https://www.ankushkaura.in/blog/ghost-in-the-machine/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/ghost-in-the-machine/</guid>
-      <pubDate>Sat, 04 Apr 2026 18:30:00 GMT</pubDate>
-      <category><![CDATA[AI]]></category>
-      <category><![CDATA[Claude]]></category>
-      <category><![CDATA[LLM]]></category>
-      <category><![CDATA[AI Safety]]></category>
-      <category><![CDATA[Opinion]]></category>
     </item>
   </channel>
 </rss>
