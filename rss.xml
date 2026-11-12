@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 12:34:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 13:39:55 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Scheduled Jobs: Monitor Business Progress, Not Just Timers]]></title>
+      <description><![CDATA[Monitor Odoo scheduled jobs through expected business outcomes, queue age and failure ownership so stalled automation is visible before work accumulates.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-scheduled-job-monitoring/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-scheduled-job-monitoring/</guid>
+      <pubDate>Thu, 12 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Integration]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Support]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo API Keys: Rotate Access Without Losing Integration Ownership]]></title>
+      <description><![CDATA[Plan Odoo API key rotation with dedicated integration users, limited permissions, expiry ownership and a controlled switch to replacement credentials.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-api-key-rotation-ownership/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-api-key-rotation-ownership/</guid>
+      <pubDate>Thu, 12 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Integration]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Integration Retries: Prevent Duplicate Business Actions]]></title>
+      <description><![CDATA[Design Odoo integration retries around stable references, uncertain outcomes and recovery so repeated requests do not duplicate business actions.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-integration-retries-duplicate-orders/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-integration-retries-duplicate-orders/</guid>
+      <pubDate>Thu, 12 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Integration]]></category>
+      <category><![CDATA[Sales]]></category>
+      <category><![CDATA[Data Import]]></category>
+      <category><![CDATA[Security]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Payment Settlements: Explain Gross Sales, Fees and Deposits]]></title>
       <description><![CDATA[Reconcile Odoo online payments with provider settlements by tracing transaction references, fees, refunds and timing differences to bank deposits.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Lead Management]]></category>
       <category><![CDATA[Sales Management]]></category>
       <category><![CDATA[Activities]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Losing Leads? Five Places They Leak and the Odoo 19 Fix]]></title>
-      <description><![CDATA[Losing leads is usually a process leak, not a people problem. Five places leads slip away and how Odoo 19 CRM closes each gap.]]></description>
-      <link>https://www.ankushkaura.in/blog/business-problem-losing-leads-odoo-crm/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/business-problem-losing-leads-odoo-crm/</guid>
-      <pubDate>Tue, 27 Oct 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[SME]]></category>
-      <category><![CDATA[Customer Management]]></category>
-      <category><![CDATA[Lead Management]]></category>
-      <category><![CDATA[Sales Management]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Getting Your Team to Actually Use the Odoo CRM]]></title>
-      <description><![CDATA[How to get your team to use the CRM in Odoo 19: capture leads without typing, keep activities honest, and use reports the team trusts.]]></description>
-      <link>https://www.ankushkaura.in/blog/getting-your-team-to-use-the-crm/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/getting-your-team-to-use-the-crm/</guid>
-      <pubDate>Mon, 26 Oct 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[SME]]></category>
-      <category><![CDATA[Customer Management]]></category>
-      <category><![CDATA[Lead Management]]></category>
-      <category><![CDATA[Sales Management]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo vs Salesforce vs Dynamics: A Developer's Checklist]]></title>
-      <description><![CDATA[Comparing Odoo vs Salesforce vs Dynamics CRM? A developer's checklist on customisation, hosting, upgrades and integration, with Odoo 19 facts.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-vs-salesforce-vs-dynamics-crm/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-vs-salesforce-vs-dynamics-crm/</guid>
-      <pubDate>Mon, 26 Oct 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[Salesforce]]></category>
-      <category><![CDATA[Microsoft]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Digital Transformation]]></category>
-      <category><![CDATA[Customer Management]]></category>
     </item>
   </channel>
 </rss>
