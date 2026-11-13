@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:39:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:57:18 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Merge or Keep Separate? Duplicate Opportunities in Odoo CRM]]></title>
+      <description><![CDATA[How Odoo 19 CRM finds similar opportunities, what a merge keeps and deletes, and how to decide when two records should stay separate.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-crm-duplicate-opportunity-decisions/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-crm-duplicate-opportunity-decisions/</guid>
+      <pubDate>Fri, 13 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Data Quality]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Reviewing Lost Reasons in Odoo CRM Before They Mislead You]]></title>
+      <description><![CDATA[How to review lost reasons in Odoo 19 CRM: where they are stored, how to report on them, and what restoring or merging does to the data.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-crm-lost-reasons-review/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-crm-lost-reasons-review/</guid>
+      <pubDate>Fri, 13 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[SME]]></category>
+      <category><![CDATA[Business Automation]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Handing Over Odoo CRM Opportunities When a Salesperson Leaves]]></title>
+      <description><![CDATA[Changing the Salesperson in Odoo 19 CRM does not move open activities. Learn what to check on handover so customers are not left waiting.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-crm-lead-ownership-handover/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-crm-lead-ownership-handover/</guid>
+      <pubDate>Fri, 13 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Scheduled Jobs: Monitor Business Progress, Not Just Timers]]></title>
       <description><![CDATA[Monitor Odoo scheduled jobs through expected business outcomes, queue age and failure ownership so stalled automation is visible before work accumulates.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Business Intelligence]]></category>
       <category><![CDATA[Data Analytics]]></category>
       <category><![CDATA[Customer Management]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Lead Generation in Odoo CRM: Inbound Sources and Lead Mining]]></title>
-      <description><![CDATA[Where Odoo 19 CRM leads come from: email aliases, web forms, manual entry, lead mining and enrichment, and what each one costs you to maintain.]]></description>
-      <link>https://www.ankushkaura.in/blog/lead-generation-and-lead-mining-in-odoo-crm/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/lead-generation-and-lead-mining-in-odoo-crm/</guid>
-      <pubDate>Wed, 28 Oct 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[Lead Management]]></category>
-      <category><![CDATA[Customer Management]]></category>
-      <category><![CDATA[Sales Management]]></category>
-      <category><![CDATA[Business Automation]]></category>
-      <category><![CDATA[ERP]]></category>
-    </item>
-    <item>
-      <title><![CDATA[How to Set Up a Sales Pipeline in Odoo 19 CRM, Step by Step]]></title>
-      <description><![CDATA[How to set up a sales pipeline in Odoo 19 CRM: settings, sales team, stages, lost reasons, activities and a first test opportunity.]]></description>
-      <link>https://www.ankushkaura.in/blog/how-to-set-up-crm-pipeline-odoo/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-to-set-up-crm-pipeline-odoo/</guid>
-      <pubDate>Tue, 27 Oct 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Setup]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[Sales]]></category>
-      <category><![CDATA[Sales Management]]></category>
-      <category><![CDATA[Lead Management]]></category>
-      <category><![CDATA[How To]]></category>
-    </item>
-    <item>
-      <title><![CDATA[How Odoo CRM Pipelines Work: Stages, Probability, Won, Lost]]></title>
-      <description><![CDATA[Understand how the Odoo 19 CRM pipeline works: stage settings, probability, Days to rot, and what won and lost mean in the data.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-crm-managing-your-pipeline/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-crm-managing-your-pipeline/</guid>
-      <pubDate>Tue, 27 Oct 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Customer Management]]></category>
-      <category><![CDATA[Lead Management]]></category>
-      <category><![CDATA[Sales Management]]></category>
-      <category><![CDATA[Activities]]></category>
     </item>
   </channel>
 </rss>
