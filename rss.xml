@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:57:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:47 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Customer Addresses: Separate Billing and Delivery]]></title>
+      <description><![CDATA[Organise Odoo customer invoice and delivery addresses so quotations, warehouse instructions and billing records describe the right business locations.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-customer-invoice-delivery-addresses/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-customer-invoice-delivery-addresses/</guid>
+      <pubDate>Sat, 14 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Invoicing]]></category>
+      <category><![CDATA[Distribution]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Quotations: Keep Revisions and Acceptance Clear]]></title>
+      <description><![CDATA[Manage Odoo quotation revisions with clear scope, current documents and acceptance evidence before sales commitments become delivery work.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-quotation-revision-acceptance/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-quotation-revision-acceptance/</guid>
+      <pubDate>Sat, 14 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Invoicing]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Setting Activity Plan Deadlines in Odoo CRM Without Guessing]]></title>
+      <description><![CDATA[How Odoo 19 CRM activity plans calculate deadlines from a plan date, how that differs from activity chaining, and how to assign each step.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-crm-activity-plan-deadlines/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-crm-activity-plan-deadlines/</guid>
+      <pubDate>Sat, 14 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
     <item>
       <title><![CDATA[Merge or Keep Separate? Duplicate Opportunities in Odoo CRM]]></title>
       <description><![CDATA[How Odoo 19 CRM finds similar opportunities, what a merge keeps and deletes, and how to decide when two records should stay separate.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Data Cleaning]]></category>
       <category><![CDATA[Activities]]></category>
       <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[How Odoo Marketing Feeds the CRM: UTMs, Campaigns, Win-Backs]]></title>
-      <description><![CDATA[How Odoo 19 Marketing connects to CRM: UTM fields on every lead, attribution reports, lost lead win-back emails and Marketing Automation.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-marketing-meets-crm/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-marketing-meets-crm/</guid>
-      <pubDate>Thu, 29 Oct 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Marketing]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[Lead Management]]></category>
-      <category><![CDATA[Customer Management]]></category>
-      <category><![CDATA[Business Automation]]></category>
-      <category><![CDATA[ERP]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo CRM Reports: Which One Answers Which Sales Question]]></title>
-      <description><![CDATA[A guide to Odoo 19 CRM reporting: Forecast, Pipeline Analysis, win/loss and unattended leads reports, and the fields behind each number.]]></description>
-      <link>https://www.ankushkaura.in/blog/activities-forecasting-and-reporting-in-odoo-crm/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/activities-forecasting-and-reporting-in-odoo-crm/</guid>
-      <pubDate>Wed, 28 Oct 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[Activities]]></category>
-      <category><![CDATA[Business Intelligence]]></category>
-      <category><![CDATA[Data Analytics]]></category>
-      <category><![CDATA[Sales Management]]></category>
-      <category><![CDATA[ERP]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Predictive Lead Scoring in Odoo CRM: What It Learns and Misses]]></title>
-      <description><![CDATA[How predictive lead scoring in Odoo 19 CRM works: the naive Bayes model, the variables it uses, per-team history and when to trust the score.]]></description>
-      <link>https://www.ankushkaura.in/blog/predictive-lead-scoring-in-odoo-crm/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/predictive-lead-scoring-in-odoo-crm/</guid>
-      <pubDate>Wed, 28 Oct 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[AI]]></category>
-      <category><![CDATA[Lead Management]]></category>
-      <category><![CDATA[Business Intelligence]]></category>
-      <category><![CDATA[Data Analytics]]></category>
-      <category><![CDATA[Customer Management]]></category>
     </item>
   </channel>
 </rss>
