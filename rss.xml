@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 12:00:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:37:29 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Order Cancellations: Review Delivery and Billing First]]></title>
+      <description><![CDATA[Handle Odoo sales order cancellations by reviewing reservations, deliveries, supplier commitments and invoices before deciding the correct reversal.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-sales-order-cancellation-review/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-sales-order-cancellation-review/</guid>
+      <pubDate>Sun, 15 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Inventory Management]]></category>
+      <category><![CDATA[Invoicing]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Supply Chain]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Customer Portal: Review Access Before Inviting Users]]></title>
+      <description><![CDATA[Review Odoo customer portal access, contact relationships and document visibility before inviting buyers, suppliers or external service contacts.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-customer-portal-access-review/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-customer-portal-access-review/</guid>
+      <pubDate>Sun, 15 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+      <category><![CDATA[Integration]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Sales Handover: Turn a Won Deal into Deliverable Work]]></title>
+      <description><![CDATA[Build an Odoo sales handover that connects accepted scope, delivery responsibilities, open assumptions and billing triggers before work begins.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-sales-delivery-handover/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-sales-delivery-handover/</guid>
+      <pubDate>Sun, 15 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[CRM]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Customer Addresses: Separate Billing and Delivery]]></title>
       <description><![CDATA[Organise Odoo customer invoice and delivery addresses so quotations, warehouse instructions and billing records describe the right business locations.]]></description>
@@ -710,51 +755,6 @@
       <category><![CDATA[Contacts]]></category>
       <category><![CDATA[Customer Management]]></category>
       <category><![CDATA[Customer Support]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[How to Set Up Odoo Helpdesk: Teams, Channels and Stages]]></title>
-      <description><![CDATA[Set up Odoo 19 Helpdesk step by step: create a team, turn on email, live chat and the website form, assign tickets, close them and add SLAs.]]></description>
-      <link>https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/how-to-set-up-helpdesk-odoo/</guid>
-      <pubDate>Fri, 30 Oct 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Setup]]></category>
-      <category><![CDATA[Helpdesk]]></category>
-      <category><![CDATA[Support]]></category>
-      <category><![CDATA[Customer Support]]></category>
-      <category><![CDATA[Website]]></category>
-      <category><![CDATA[How To]]></category>
-    </item>
-    <item>
-      <title><![CDATA[What Odoo Helpdesk Does and How a Ticket Moves Through It]]></title>
-      <description><![CDATA[Odoo Helpdesk explained for Odoo 19: teams, stages, channels, assignment, SLA policies and ratings, and what is configuration versus code.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-helpdesk/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk/</guid>
-      <pubDate>Thu, 29 Oct 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Helpdesk]]></category>
-      <category><![CDATA[Support]]></category>
-      <category><![CDATA[Customer Support]]></category>
-      <category><![CDATA[Customer Service]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Customer Management]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo CRM Sales Mistakes You Can Spot in Your Own Data]]></title>
-      <description><![CDATA[Common Odoo CRM sales mistakes and how to find each one in your own data with filters, groupings and reports in Odoo 19, plus how to clean up.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-crm-sales-mistakes/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-crm-sales-mistakes/</guid>
-      <pubDate>Thu, 29 Oct 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[CRM]]></category>
-      <category><![CDATA[Sales]]></category>
-      <category><![CDATA[Data Quality]]></category>
-      <category><![CDATA[Data Cleaning]]></category>
-      <category><![CDATA[Activities]]></category>
       <category><![CDATA[Best Practices]]></category>
     </item>
   </channel>
