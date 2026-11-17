@@ -1,0 +1,197 @@
+<!DOCTYPE html><script>(function(){const slug = "odoo-helpdesk-priority-triage";
+const title = "Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment";
+
+  // Track blog view on page load
+  if (window.gtag) {
+    window.gtag('event', 'blog_view', {
+      blog_slug: slug,
+      blog_title: title,
+    })
+  }
+})();</script> <html lang="en"> <head><meta charset="utf-8"><meta name="robots" content="index, follow"><meta name="googlebot" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Astro v5.15.1"><meta name="author" content="Ankush Kaura"><meta name="language" content="en-US"><meta name="keywords" content="Odoo, Odoo 19, ERP, Best Practices, Helpdesk, Customer Management, Business Automation, Setup"><link rel="canonical" href="https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/"><link rel="shortcut icon" type="image/svg+xml" href="https://www.ankushkaura.in/favicon.svg"><link rel="sitemap" type="application/xml" href="https://www.ankushkaura.in/sitemap.xml"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.ankushkaura.in/rss.xml"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#000000"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Ankush Kaura"><title>Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment</title><meta name="title" content="Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment"><meta name="description" content="How priority stars, tags and assignment work together in Odoo 19 Helpdesk triage, and how a priority change can alter an SLA deadline."><!-- Enhanced Open Graph --><meta property="og:type" content="article"><meta property="og:url" content="https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/"><meta property="og:site_name" content="Ankush Kaura - Full-Stack Developer"><meta property="og:title" content="Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment"><meta property="og:description" content="How priority stars, tags and assignment work together in Odoo 19 Helpdesk triage, and how a priority change can alter an SLA deadline."><meta property="og:image" content="https://www.ankushkaura.in/og/blog-odoo-helpdesk-priority-triage.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_US"><meta property="article:published_time" content="2026-11-17T10:00:00+05:30"><meta property="article:modified_time" content="2026-11-17T10:00:00+05:30"><meta property="article:author" content="Ankush Kaura"><meta property="article:tag" content="Odoo"><meta property="article:tag" content="Odoo 19"><meta property="article:tag" content="ERP"><meta property="article:tag" content="Best Practices"><meta property="article:tag" content="Helpdesk"><meta property="article:tag" content="Customer Management"><meta property="article:tag" content="Business Automation"><meta property="article:tag" content="Setup"><!-- Enhanced Twitter Cards --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/"><meta property="twitter:site" content="@ankushkaura"><meta property="twitter:creator" content="@ankushkaura"><meta property="twitter:title" content="Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment"><meta property="twitter:description" content="How priority stars, tags and assignment work together in Odoo 19 Helpdesk triage, and how a priority change can alter an SLA deadline."><meta property="twitter:image" content="https://www.ankushkaura.in/og/blog-odoo-helpdesk-priority-triage.png"><!-- Structured Data (JSON-LD) --><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","name":"Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment","headline":"Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment","description":"How priority stars, tags and assignment work together in Odoo 19 Helpdesk triage, and how a priority change can alter an SLA deadline.","url":"https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/","image":"https://www.ankushkaura.in/og/blog-odoo-helpdesk-priority-triage.png","inLanguage":"en","author":{"@type":"Person","name":"Ankush Kaura","url":"https://www.ankushkaura.in/","sameAs":["https://github.com/ankush-kaura","https://www.linkedin.com/in/ankush-kaura-4893a93a6/","https://twitter.com/ankushkaura"]},"publisher":{"@type":"Person","name":"Ankush Kaura","url":"https://www.ankushkaura.in/"},"datePublished":"2026-11-17T10:00:00+05:30","dateModified":"2026-11-17T10:00:00+05:30","keywords":"Odoo, Odoo 19, ERP, Best Practices, Helpdesk, Customer Management, Business Automation, Setup","wordCount":963,"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/"},"isPartOf":{"@type":"WebSite","name":"Ankush Kaura - Full-Stack Developer","url":"https://www.ankushkaura.in/"}}</script><!-- Breadcrumb Structured Data --><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ankushkaura.in/"},{"@type":"ListItem","position":2,"name":"Writing","item":"https://www.ankushkaura.in/blogs/"},{"@type":"ListItem","position":3,"name":"Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment","item":"https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/"}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What do the stars mean on an Odoo Helpdesk ticket?","acceptedAnswer":{"@type":"Answer","text":"Zero stars is Low, one is Medium, two is High and three is Urgent. New tickets start at Low, and higher priorities appear first in the Kanban and list views."}},{"@type":"Question","name":"Does an SLA policy with no priority selected apply to all tickets?","acceptedAnswer":{"@type":"Answer","text":"No. According to the Odoo 19 documentation, a policy with no priority selected applies only to Low priority tickets, meaning those with zero stars."}},{"@type":"Question","name":"What happens to a ticket with no tag when assignment is by tags?","acceptedAnswer":{"@type":"Answer","text":"It stays unassigned. Dispatch by tags only assigns tickets that carry a tag handled by a team member."}}]}</script><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-S0RDSR9X3W"></script><script>(function(){const gaId = "G-S0RDSR9X3W";
+const pageTitle = "Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment";
+const pageLocation = "https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/";
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+  gtag('config', gaId, {
+    page_title: pageTitle,
+    page_location: pageLocation,
+    send_page_view: true,
+    enhanced_measurement: {
+      scrolls: true,
+      outbound_clicks: true,
+      site_search: true,
+      video_engagement: true,
+      file_downloads: true,
+    },
+  })
+})();</script><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/assets/ClientRouter.astro_astro_type_script_index_0_lang.elfUsALL.js"></script><script type="module" src="/assets/WebVitals.astro_astro_type_script_index_0_lang.Crpxd1aU.js"></script><link rel="stylesheet" href="/assets/styles.css"><style>[data-astro-transition-scope="astro-mlohbwkr-1"] { view-transition-name: astro-mlohbwkr-1; }@layer astro { ::view-transition-old(astro-mlohbwkr-1) { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }::view-transition-new(astro-mlohbwkr-1) { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back]::view-transition-old(astro-mlohbwkr-1) { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back]::view-transition-new(astro-mlohbwkr-1) { 
+	animation-name: astroFadeIn, astroSlideFromLeft; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-mlohbwkr-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-mlohbwkr-1"] { 
+	animation-name: astroFadeIn, astroSlideFromLeft; }</style></head> <body class="min-h-screen bg-background font-sans antialiased"> <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2" data-astro-cid-svspnz7o>
+Skip to main content
+</a>  <div class="flex flex-col items-center justify-center"> <script>
+  // Open the ⌘K command palette from the header button (delegated so it
+  // survives Astro view-transition swaps without duplicate bindings).
+  if (!window.__cmdkBound) {
+    window.__cmdkBound = true
+    document.addEventListener('click', function (e) {
+      const t = e.target
+      if (t && t.closest && t.closest('#cmdk-trigger')) {
+        window.dispatchEvent(new CustomEvent('open-command-palette'))
+      }
+    })
+  }
+
+  document.addEventListener('astro:after-swap', function () {
+    if (localStorage.getItem('theme') === 'dark')
+      document.documentElement.classList.toggle('dark', true)
+  })
+
+  const getThemePreference = () => localStorage.getItem('theme')
+  const isDark = getThemePreference() === 'dark'
+  document.documentElement.classList[isDark ? 'add' : 'remove']('dark')
+</script> <header class="sticky top-0 z-50 w-full border-b border-border/60 bg-background/70 backdrop-blur-xl"> <div class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6"> <a href="/" class="group flex items-center gap-2.5" aria-label="Home"> <span class="grid size-8 place-items-center rounded-lg bg-foreground font-mono text-sm font-bold text-background transition-transform duration-300 group-hover:rotate-6">AK</span> <span class="text-sm font-semibold tracking-tight">Ankush Kaura</span> </a> <nav class="hidden items-center gap-1 md:flex"> <a href="/portfolio" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors text-muted-foreground hover:bg-accent hover:text-foreground"> Work </a><a href="/stack" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors text-muted-foreground hover:bg-accent hover:text-foreground"> Stack </a><a href="/blogs" aria-current="page" class="rounded-lg px-3 py-1.5 text-sm font-medium transition-colors bg-accent text-foreground"> Writing </a> </nav> <div class="flex items-center gap-1.5 sm:gap-2"> <button type="button" id="cmdk-trigger" class="inline-flex items-center gap-2 rounded-lg border border-border bg-secondary/50 px-2.5 py-1.5 text-sm text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground" aria-label="Open command palette (Command or Control + K)"> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg> <span class="hidden sm:inline">Search</span> <kbd class="hidden rounded border border-border bg-background px-1 font-mono text-[10px] sm:inline">⌘K</kbd> </button> <a href="https://github.com/ankush-kaura" target="_blank" rel="noreferrer" class="grid size-9 place-items-center rounded-lg text-muted-foreground transition-colors hover:bg-accent hover:text-foreground" aria-label="GitHub Profile"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.021C22 6.484 17.523 2 12 2z"></path></svg> </a> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="1LJTyf" prefix="r3" component-url="/assets/ThemeToggle.W6oPJi_J.js" component-export="ModeToggle" renderer-url="/assets/client.rDww93b6.js" props="{&quot;data-astro-transition-persist&quot;:[0,&quot;astro-vwda23fb-3&quot;]}" ssr client="load" opts="{&quot;name&quot;:&quot;ModeToggle&quot;,&quot;value&quot;:true}" data-astro-transition-persist="astro-vwda23fb-3" await-children><button class="inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-medium transition-[background-color,border-color,color,transform] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 active:translate-y-px border border-border bg-transparent hover:border-primary/40 hover:bg-accent hover:text-accent-foreground h-10 w-10" type="button" id="radix-_r3R_0_" aria-haspopup="menu" aria-expanded="false" data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg><span class="sr-only">Toggle theme</span></button><!--astro:end--></astro-island> </div> </div> </header> <div id="main-content">  <main class="flex min-h-[80vh] flex-auto flex-col" data-astro-transition-scope="astro-mlohbwkr-1"> <div class="pb-3 pt-3 sm:pb-4 sm:pt-4 md:pb-6 md:pt-6"> <div class="w-full h-full mx-auto px-3 sm:px-4 md:px-6 max-w-screen-md">   <div class="mb-4 sm:mb-6"> <a href="/blogs/" class="text-sm text-primary hover:underline sm:text-base">&larr; Back to Blogs</a> </div> <h1 class="scroll-m-20 text-2xl font-extrabold tracking-tight sm:text-3xl lg:text-4xl xl:text-5xl"> Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment </h1> <p class="mt-2 text-base text-muted-foreground sm:text-lg"> How priority stars, tags and assignment work together in Odoo 19 Helpdesk triage, and how a priority change can alter an SLA deadline. </p> <p class="mt-2 text-sm text-gray-500">
+Published on 17 Nov 2026 &middot; 5 min read </p> <ul class="flex flex-wrap gap-2 mt-3" aria-label="Topics"><li><a href="/blog/tag/odoo/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Odoo</a></li><li><a href="/blog/tag/odoo-19/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Odoo 19</a></li><li><a href="/blog/tag/erp/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">ERP</a></li><li><a href="/blog/tag/best-practices/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Best Practices</a></li><li><a href="/blog/tag/helpdesk/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Helpdesk</a></li><li><a href="/blog/tag/customer-management/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Customer Management</a></li><li><a href="/blog/tag/business-automation/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Business Automation</a></li><li><a href="/blog/tag/setup/" class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary hover:text-foreground">Setup</a></li></ul>   </div> </div> <div class="flex-1 py-3 sm:py-4 md:py-6"> <div class="w-full h-full mx-auto px-3 sm:px-4 md:px-6 max-w-screen-md">   <article class="prose max-w-none dark:prose-invert"> <img src="https://images.ctfassets.net/2y2ueqm0l7y8/5SRi80d1GcLADqW38b73mP/cc7641094fa618132ab6dc05a28754d1/ankush-kaura-animated.gif" alt="Animated portrait of Ankush Kaura" class="mb-6 h-48 w-full rounded-lg object-cover sm:mb-8 sm:h-56 lg:h-64 xl:h-72" loading="eager" decoding="async" fetchpriority="high" width="1200" height="630" onerror="this.onerror=null;this.src='https://images.ctfassets.net/2y2ueqm0l7y8/5SRi80d1GcLADqW38b73mP/cc7641094fa618132ab6dc05a28754d1/ankush-kaura-animated.gif';this.alt='Animated portrait of Ankush Kaura'"> <p><strong>Short answer:</strong> Triage in Odoo 19 Helpdesk is three fields doing separate jobs. <strong>Priority</strong> (zero to three stars) controls ordering and can decide which SLA policy applies. <strong>Tags</strong> say what the ticket is about and can decide who receives it. <strong>Assignment</strong> hands it to a person. Agree what each star means before launch, because a changed star can change an SLA deadline. Helpdesk is an Enterprise app.</p>
+<h2 id="applies-to">Applies to</h2>
+<ul>
+<li><strong>Odoo version:</strong> Odoo 19. I compared the receiving-tickets, SLA, reporting and main Helpdesk pages with the 20.0 versions. The priority, tag and assignment text matches.</li>
+<li><strong>Edition:</strong> Enterprise only. Everything here about Helpdesk fields comes from the documentation.</li>
+<li><strong>Apps:</strong> Helpdesk. Time Off affects who can be assigned, and Timesheets adds a Services criterion to SLAs.</li>
+</ul>
+<h2 id="what-does-priority-control">What does priority control?</h2>
+<p>Every ticket has a <strong>Priority</strong> field shown as stars. The meaning is fixed: no stars is Low, one is Medium, two is High, three is Urgent. A new ticket is Low, and higher priority tickets sort to the top of the Kanban and list views.</p>
+<p>Two consequences follow from that. Because the default is Low, a ticket nobody has looked at is, in the data, the least urgent one. And because the stars can be set on the Kanban card as well as on the ticket, changing them takes one click.</p>
+<p>I did not find a documented way to let customers set priority on the website form, so I would treat it as an agent decision.</p>
+<h2 id="how-do-tags-and-assignment-fit-in">How do tags and assignment fit in?</h2>
+<p>On the team form, <strong>Automatic Assignment</strong> offers three modes: equal total tickets, equal open tickets, and <strong>Dispatch tickets based on tags</strong>. In the tag mode you click <strong>Configure tags handled by team members</strong> and link each ticket tag, such as Pricing or IT, to one or more members. Tickets with no tag stay unassigned, and people with scheduled time off are skipped.</p>
+<p>That makes the tag list part of your routing design rather than a decoration. A long, loosely named tag list means tickets quietly miss the dispatcher. I would keep tags to the real skill areas of the team and add an “Other” tag that goes to whoever triages.</p>
+<h2 id="how-does-priority-connect-to-slas">How does priority connect to SLAs?</h2>
+<p>An SLA policy under <strong>Helpdesk ‣ Configuration ‣ SLA Policies</strong> matches on team, priority, tags, customers and, with Timesheets, services. The detail that surprises people is how the priority criterion behaves. The policy only applies once the ticket’s stars match, and a policy with nothing selected applies only to Low tickets.</p>
+<p>The documentation also warns that changing a ticket’s priority can change its SLA deadline. If several policies match, only the earliest deadline is shown, then the next one after it passes. So an agent who raises a ticket from two stars to three is not just flagging it, they are choosing a different deadline.</p>
+<h2 id="can-triage-be-automated">Can triage be automated?</h2>
+<p>Partly, and I would be careful here. Dispatch by tags and SLA matching are configuration. Setting priority automatically from the content of a message is not something I found in the Helpdesk documentation. Odoo’s automation rules can act on records when a trigger fires, but I have not checked how they behave on Helpdesk fields, and that would be a customisation to design and test, not a setting to tick.</p>
+<p>If you go that way, start with a rule that only suggests or flags, and keep a human in the loop for priority.</p>
+<h2 id="how-do-i-check-that-triage-works">How do I check that triage works?</h2>
+<p>Use <strong>Helpdesk ‣ Reporting ‣ Tickets Analysis</strong>. The documentation’s use case: choose the measure <strong>Working Hours to Close</strong>, group by <strong>Priority</strong> and filter on <strong>Closed</strong>. Compare how long Urgent tickets take against Low ones. If they take about the same, priority is not driving behaviour. Add <strong>Hours to First Response</strong> to see whether the early reaction differs, and use the SLA Status Analysis report to see failures over time.</p>
+<h2 id="when-it-fits-and-when-it-doesnt">When it fits and when it doesn’t</h2>
+<p>A four-level scale fits teams with different promise levels for different problems. It does not fit a team of two who answer everything the same day: there, extra stars are noise. Keep the scheme as small as the real difference in response.</p>
+<h2 id="a-worked-example">A worked example</h2>
+<p>A company hiring out event equipment has one team, with tags Audio, Lighting and Delivery. The team writes down what each star means in one sentence, for instance Urgent means an event is happening within the day and nothing can replace the item.</p>
+<p>A customer emails that a speaker has failed. The ticket arrives at Low with the Audio tag and goes to the audio specialist, who raises it to Urgent because of the event. That change attaches the Urgent SLA and its earlier deadline, and the ticket jumps to the top of the board. The reverse also works: a question about next month’s invoice stays Low and waits.</p>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Leaving every ticket at Low.</strong> The SLAs never engage.</li>
+<li><strong>Assuming an empty priority on an SLA means every ticket.</strong> It means Low only.</li>
+<li><strong>Skipping tags and choosing tag dispatch.</strong> Nothing gets assigned.</li>
+<li><strong>Letting stars drift.</strong> Review the definition quarterly with the team.</li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="/blog/odoo-helpdesk/">What Odoo Helpdesk does</a> gives the wider picture of teams and tickets.</li>
+<li><a href="/blog/how-to-set-up-helpdesk-odoo/">How to set up Odoo Helpdesk</a> shows where the assignment and SLA settings sit.</li>
+<li><a href="/blog/odoo-helpdesk-mistakes/">Odoo Helpdesk mistakes</a> covers other settings that behave unexpectedly.</li>
+</ul>
+<p>There is a longer screen by screen walkthrough of this on <a href="https://www.sajjalbajaj.in/blog/2026/11/17/odoo-helpdesk-priority-triage/">sajjalbajaj.in</a>.</p>
+<h2 id="official-references">Official references</h2>
+<ul>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk.html">Helpdesk (19.0)</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk/overview/receiving_tickets.html">Receiving tickets (19.0)</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk/overview/sla.html">Service level agreements (19.0)</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/services/helpdesk/overview/reports.html">Helpdesk reporting (19.0)</a></li>
+<li><a href="https://www.odoo.com/documentation/19.0/applications/studio/automated_actions.html">Automation rules (19.0)</a></li>
+</ul>
+<p><em>How this article was checked: I read the Odoo 19 Helpdesk pages listed above and compared them with 20.0. The triage definitions are my recommendations, not documented fields. I did not run a live Helpdesk database.</em></p>
+<p>If you are mapping a support process onto Odoo, the <a href="/portfolio">portfolio</a> has more on how I work.</p> </article> <section class="mt-12" aria-labelledby="faq-heading"> <h2 id="faq-heading" class="text-2xl font-semibold tracking-tight">
+Frequently asked questions
+</h2> <div class="mt-4 divide-y divide-border rounded-lg border border-border"> <details class="px-4 py-3"> <summary class="cursor-pointer font-medium">What do the stars mean on an Odoo Helpdesk ticket?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> Zero stars is Low, one is Medium, two is High and three is Urgent. New tickets start at Low, and higher priorities appear first in the Kanban and list views. </p> </details><details class="px-4 py-3"> <summary class="cursor-pointer font-medium">Does an SLA policy with no priority selected apply to all tickets?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> No. According to the Odoo 19 documentation, a policy with no priority selected applies only to Low priority tickets, meaning those with zero stars. </p> </details><details class="px-4 py-3"> <summary class="cursor-pointer font-medium">What happens to a ticket with no tag when assignment is by tags?</summary> <p class="mt-2 text-sm leading-relaxed text-muted-foreground"> It stays unassigned. Dispatch by tags only assigns tickets that carry a tag handled by a team member. </p> </details> </div> </section><section class="mt-12" aria-labelledby="related-heading"> <h2 id="related-heading" class="text-2xl font-semibold tracking-tight">
+Keep reading
+</h2> <ul class="mt-4 grid gap-3 sm:grid-cols-2"> <li> <a href="/blog/odoo-project-dependency-release-decisions/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Odoo Task Dependencies: Review What Releases Blocked Work</span> <span class="mt-1 block text-xs text-muted-foreground"> 17 Nov 2026 &middot; 5 min read
+</span> </a> </li><li> <a href="/blog/odoo-crm-activity-plan-deadlines/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Setting Activity Plan Deadlines in Odoo CRM Without Guessing</span> <span class="mt-1 block text-xs text-muted-foreground"> 14 Nov 2026 &middot; 5 min read
+</span> </a> </li><li> <a href="/blog/how-to-set-up-helpdesk-odoo/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">How to Set Up Odoo Helpdesk: Teams, Channels and Stages</span> <span class="mt-1 block text-xs text-muted-foreground"> 30 Oct 2026 &middot; 6 min read
+</span> </a> </li><li> <a href="/blog/odoo-helpdesk-mistakes/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Odoo Helpdesk Mistakes That Quietly Frustrate Customers</span> <span class="mt-1 block text-xs text-muted-foreground"> 30 Oct 2026 &middot; 5 min read
+</span> </a> </li><li> <a href="/blog/odoo-helpdesk/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">What Odoo Helpdesk Does and How a Ticket Moves Through It</span> <span class="mt-1 block text-xs text-muted-foreground"> 29 Oct 2026 &middot; 6 min read
+</span> </a> </li><li> <a href="/blog/odoo-field-service-repeat-visits/" class="block h-full rounded-lg border border-border p-4 transition-colors hover:border-primary"> <span class="font-medium">Odoo Repeat Service Visits: Keep the Unfinished Work Visible</span> <span class="mt-1 block text-xs text-muted-foreground"> 16 Nov 2026 &middot; 5 min read
+</span> </a> </li> </ul> </section>  </div> </div> </main>  </div> <footer class="mt-20 w-full border-t border-border/60"> <div class="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 sm:px-6 md:flex-row md:items-center md:justify-between"> <div class="flex items-center gap-3"> <span class="grid size-8 place-items-center rounded-lg bg-foreground font-mono text-sm font-bold text-background">AK</span> <div class="text-sm"> <p class="font-semibold tracking-tight">Ankush Kaura</p> <p class="text-muted-foreground">
+Full-Stack Developer &amp; Solutions Architect
+</p> </div> </div> <nav class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm"> <a href="/portfolio" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Work </a><a href="/stack" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Stack </a><a href="/blogs" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> Writing </a><a href="https://github.com/ankush-kaura" target="_blank" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> GitHub </a><a href="https://www.linkedin.com/in/ankush-kaura-4893a93a6/" target="_blank" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground"> LinkedIn </a> </nav> </div> <div class="border-t border-border/40"> <div class="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4 text-xs text-muted-foreground sm:flex-row sm:justify-between sm:px-6"> <div class="flex items-center gap-4"> <p>&copy; 2026 Ankush Kaura.</p> <a href="/privacy" class="transition-colors hover:text-foreground">Privacy</a> </div> <p class="font-mono">Built with Astro, React &amp; Tailwind.</p> </div> </div> </footer> </div> <script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();</script><astro-island uid="dNLH8" prefix="r2" component-url="/assets/CommandPalette.CtHeCJdd.js" component-export="default" renderer-url="/assets/client.rDww93b6.js" props="{&quot;data-astro-transition-persist&quot;:[0,&quot;astro-5g5eesqo-2&quot;]}" ssr client="idle" opts="{&quot;name&quot;:&quot;CommandPalette&quot;,&quot;value&quot;:true}" data-astro-transition-persist="astro-5g5eesqo-2"></astro-island> <script>
+      // Scroll-reveal via IntersectionObserver (no scroll listener; re-runs
+      // after view transitions; collapses to instant under reduced motion).
+      function initReveals() {
+        const els = document.querySelectorAll('.reveal:not(.is-visible)')
+        const reduce = window.matchMedia(
+          '(prefers-reduced-motion: reduce)',
+        ).matches
+        if (reduce || !('IntersectionObserver' in window)) {
+          els.forEach((el) => el.classList.add('is-visible'))
+          return
+        }
+        const io = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible')
+                obs.unobserve(entry.target)
+              }
+            })
+          },
+          { threshold: 0.02, rootMargin: '0px 0px -4% 0px' },
+        )
+        els.forEach((el) => io.observe(el))
+        // Safety net: never let anything stay hidden. Reveal in/near the
+        // viewport shortly after load in case IO misses tall elements.
+        setTimeout(() => {
+          document
+            .querySelectorAll('.reveal:not(.is-visible)')
+            .forEach((el) => {
+              if (el.getBoundingClientRect().top < window.innerHeight * 1.1) {
+                el.classList.add('is-visible')
+              }
+            })
+        }, 500)
+      }
+      document.addEventListener('astro:page-load', initReveals)
+      if (document.readyState !== 'loading') initReveals()
+      else document.addEventListener('DOMContentLoaded', initReveals)
+    </script> <script>
+      // Register service worker for PWA support
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {
+              console.log('ServiceWorker registered:', registration.scope)
+            })
+            .catch((error) => {
+              console.log('ServiceWorker registration failed:', error)
+            })
+        })
+      }
+    </script> </body> </html>

@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:29:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 14:15:13 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment]]></title>
+      <description><![CDATA[How priority stars, tags and assignment work together in Odoo 19 Helpdesk triage, and how a priority change can alter an SLA deadline.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk-priority-triage/</guid>
+      <pubDate>Tue, 17 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Project Profitability: Investigate Missing Costs]]></title>
+      <description><![CDATA[Review missing Odoo project costs by checking analytic links, document states, employee cost settings and material movements before trusting margin.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-project-profitability-missing-costs/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-project-profitability-missing-costs/</guid>
+      <pubDate>Tue, 17 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Accounting]]></category>
+      <category><![CDATA[Finance]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+      <category><![CDATA[Invoicing]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Task Dependencies: Review What Releases Blocked Work]]></title>
+      <description><![CDATA[Use Odoo task dependencies with clear predecessor outcomes, cancellation decisions and practical rules for releasing work to the next team.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-project-dependency-release-decisions/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-project-dependency-release-decisions/</guid>
+      <pubDate>Tue, 17 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Repeat Service Visits: Keep the Unfinished Work Visible]]></title>
       <description><![CDATA[Manage repeat Odoo service visits with clear remaining work, appointment ownership, parts readiness and billing decisions linked to the original visit.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Skincare]]></category>
       <category><![CDATA[ERP]]></category>
       <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Food Traceability: Run a Practical Recall Drill]]></title>
-      <description><![CDATA[Plan a food traceability drill in Odoo using lot records, stock movements, customer deliveries and reconciled quantities to expose gaps before an incident.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-food-recall-traceability-drill/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-food-recall-traceability-drill/</guid>
-      <pubDate>Sun, 01 Nov 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Food and Beverage]]></category>
-      <category><![CDATA[Stock Control]]></category>
-      <category><![CDATA[Quality]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Multi Branch Rollouts: Pilot the Process Before Expanding]]></title>
-      <description><![CDATA[Plan an Odoo rollout across branches with the right company structure, shared data rules, pilot evidence and local acceptance before each release wave.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-multi-branch-rollout/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-multi-branch-rollout/</guid>
-      <pubDate>Sat, 31 Oct 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Multi-Company]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Implementation]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[SME]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Implementation Handover: Give the Operating Team What It Needs]]></title>
-      <description><![CDATA[Prepare an Odoo handover with account ownership, process decisions, support routes, known limitations and practical evidence that the team can operate it.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-implementation-handover/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-implementation-handover/</guid>
-      <pubDate>Sat, 31 Oct 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Implementation]]></category>
-      <category><![CDATA[Support]]></category>
-      <category><![CDATA[Project]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[SME]]></category>
     </item>
   </channel>
 </rss>
