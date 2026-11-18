@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 14:15:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 13:45:53 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Knowledge: Keep Support Articles Accurate and Findable]]></title>
+      <description><![CDATA[Maintain Odoo Knowledge support articles with clear ownership, version context, sharing boundaries and a review process for outdated instructions.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-knowledge-support-article-review/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-knowledge-support-article-review/</guid>
+      <pubDate>Wed, 18 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Auditing Odoo Helpdesk Closures: Stages, Auto-Close and Ratings]]></title>
+      <description><![CDATA[Review how tickets close in Odoo 19 Helpdesk: folded stages, automatic closing, customer closure and ratings, and the reports that show problems.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-helpdesk-ticket-closure-review/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk-ticket-closure-review/</guid>
+      <pubDate>Wed, 18 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Quality]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Why an Odoo Helpdesk SLA Deadline Moves and How to Control It]]></title>
+      <description><![CDATA[How Odoo 19 Helpdesk SLA deadlines are calculated: working hours, Reach Stage, Excluding Stages and what a waiting stage should and should not pause.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-helpdesk-sla-waiting-time/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk-sla-waiting-time/</guid>
+      <pubDate>Wed, 18 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
     <item>
       <title><![CDATA[Triage Odoo Helpdesk Tickets: Priority, Tags and Assignment]]></title>
       <description><![CDATA[How priority stars, tags and assignment work together in Odoo 19 Helpdesk triage, and how a priority change can alter an SLA deadline.]]></description>
@@ -709,51 +754,6 @@
       <category><![CDATA[Retail]]></category>
       <category><![CDATA[Accounting]]></category>
       <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[From Ticket to Repair: Odoo Helpdesk Returns and Warranty Work]]></title>
-      <description><![CDATA[How an Odoo 19 Helpdesk ticket starts a return, a repair order or a credit note, and why the Under Warranty box is a decision, not a check.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-helpdesk-warranty-return-repair/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk-warranty-return-repair/</guid>
-      <pubDate>Mon, 02 Nov 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Helpdesk]]></category>
-      <category><![CDATA[Repairs]]></category>
-      <category><![CDATA[Support]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Car Rentals: Handle Return Inspections and Damage Disputes]]></title>
-      <description><![CDATA[Plan car rental returns in Odoo with vehicle identity, inspection evidence, deposit review and repair ownership before closing the customer agreement.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-car-rental-return-damage/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-car-rental-return-damage/</guid>
-      <pubDate>Sun, 01 Nov 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Rental]]></category>
-      <category><![CDATA[Fleet]]></category>
-      <category><![CDATA[Repairs]]></category>
-      <category><![CDATA[Sales]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Skincare Production: Control Formula and Label Revisions]]></title>
-      <description><![CDATA[Manage skincare formula and label changes with Odoo revision records, approvals, effective dates and production evidence without losing batch context.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-skincare-formula-label-revisions/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-skincare-formula-label-revisions/</guid>
-      <pubDate>Sun, 01 Nov 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Manufacturing]]></category>
-      <category><![CDATA[PLM]]></category>
-      <category><![CDATA[Quality]]></category>
-      <category><![CDATA[Skincare]]></category>
       <category><![CDATA[ERP]]></category>
       <category><![CDATA[Best Practices]]></category>
     </item>
