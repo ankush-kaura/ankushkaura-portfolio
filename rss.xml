@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 13:45:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 14:15:21 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Product Variants: Retire Options Without Losing Context]]></title>
+      <description><![CDATA[Review Odoo product variant changes before removing attributes, including order history, stock, external mappings and the risk of recreated variants.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-product-variant-retirement/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-product-variant-retirement/</guid>
+      <pubDate>Thu, 19 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Inventory Management]]></category>
+      <category><![CDATA[eCommerce]]></category>
+      <category><![CDATA[Data Import]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Import Blank Fields: Decide What to Clear or Preserve]]></title>
+      <description><![CDATA[Review blank fields in Odoo imports so a routine update does not erase useful values, misread dates or overwrite unrelated changes in existing records.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-import-blank-fields-corrections/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-import-blank-fields-corrections/</guid>
+      <pubDate>Thu, 19 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Data Import]]></category>
+      <category><![CDATA[Migration]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Import External IDs: Keep Updates on the Right Records]]></title>
+      <description><![CDATA[Use stable Odoo import external IDs to update the intended records, preserve relationships and prevent repeated files from creating duplicate data.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-import-external-id-ownership/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-import-external-id-ownership/</guid>
+      <pubDate>Thu, 19 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Data Import]]></category>
+      <category><![CDATA[Migration]]></category>
+      <category><![CDATA[Integration]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Knowledge: Keep Support Articles Accurate and Findable]]></title>
       <description><![CDATA[Maintain Odoo Knowledge support articles with clear ownership, version context, sharing boundaries and a review process for outdated instructions.]]></description>
@@ -709,51 +754,6 @@
       <category><![CDATA[Integration]]></category>
       <category><![CDATA[Support]]></category>
       <category><![CDATA[Helpdesk]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Pet Supplies: Keep Cases, Packs and Individual Units Consistent]]></title>
-      <description><![CDATA[Keep pet supply purchasing and sales consistent in Odoo with clear inventory units, case conversions, pack identities and lot tracking decisions.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-pet-supplies-casepacks-units/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-pet-supplies-casepacks-units/</guid>
-      <pubDate>Tue, 03 Nov 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Retail]]></category>
-      <category><![CDATA[Pet Supplies]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Clinic Administration: Define Reception Access Carefully]]></title>
-      <description><![CDATA[Define Odoo reception access for healthcare, dental and veterinary administration with role boundaries, minimal data and practical permission reviews.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-clinic-reception-access-boundaries/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-clinic-reception-access-boundaries/</guid>
-      <pubDate>Mon, 02 Nov 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Healthcare]]></category>
-      <category><![CDATA[Security]]></category>
-      <category><![CDATA[Setup]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[SME]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo POS Refunds: Reconcile the Return, Payment and Stock]]></title>
-      <description><![CDATA[Handle Odoo POS refunds with original order references, authorised return decisions and checks across stock, customer documents and payment settlement.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-pos-refunds-settlement/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-pos-refunds-settlement/</guid>
-      <pubDate>Mon, 02 Nov 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[POS]]></category>
-      <category><![CDATA[Retail]]></category>
-      <category><![CDATA[Accounting]]></category>
-      <category><![CDATA[Inventory]]></category>
       <category><![CDATA[ERP]]></category>
       <category><![CDATA[Best Practices]]></category>
     </item>
