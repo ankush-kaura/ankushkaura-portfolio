@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 14:15:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 13:56:04 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Staff Departures: Transfer Work and Review Access]]></title>
+      <description><![CDATA[Plan Odoo staff departure handovers across open work, access rights, integration ownership and shared documents so responsibilities remain clear.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-staff-departure-access-handover/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-staff-departure-access-handover/</guid>
+      <pubDate>Fri, 20 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Integration]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Shared Products: Review Company Specific Values]]></title>
+      <description><![CDATA[Review Odoo shared product and contact records alongside company specific values, active company selection and ownership of master data changes.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-shared-products-company-values/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-shared-products-company-values/</guid>
+      <pubDate>Fri, 20 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Multi-Company]]></category>
+      <category><![CDATA[Inventory Management]]></category>
+      <category><![CDATA[Accounting]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Unit Conversion: Explain Quantity Differences First]]></title>
+      <description><![CDATA[Investigate Odoo unit conversion differences across purchases, receipts and sales before changing stock, prices or the product measurement model.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-unit-conversion-quantity-discrepancies/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-unit-conversion-quantity-discrepancies/</guid>
+      <pubDate>Fri, 20 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Inventory Management]]></category>
+      <category><![CDATA[Procurement]]></category>
+      <category><![CDATA[Supply Chain]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Product Variants: Retire Options Without Losing Context]]></title>
       <description><![CDATA[Review Odoo product variant changes before removing attributes, including order history, stock, external mappings and the risk of recreated variants.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Procurement]]></category>
       <category><![CDATA[Supply Chain]]></category>
       <category><![CDATA[SME]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Blanket Orders: Control Each Supplier Call Off]]></title>
-      <description><![CDATA[Use Odoo blanket orders for recurring purchases with clear call off quantities, agreed prices, validity dates and supplier commitment reviews.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-blanket-order-call-offs/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-blanket-order-call-offs/</guid>
-      <pubDate>Wed, 04 Nov 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Procurement]]></category>
-      <category><![CDATA[Supply Chain]]></category>
-      <category><![CDATA[SME]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Cold Chain Receiving: Record and Resolve Delivery Exceptions]]></title>
-      <description><![CDATA[Plan cold chain receiving in Odoo with lot identity, inspection evidence, exception ownership and verified stock holds before goods are released.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-cold-chain-receiving-exceptions/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-cold-chain-receiving-exceptions/</guid>
-      <pubDate>Tue, 03 Nov 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Quality]]></category>
-      <category><![CDATA[Food and Beverage]]></category>
-      <category><![CDATA[Stock Control]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo WhatsApp: Handle Failed Messages and Missed Replies]]></title>
-      <description><![CDATA[Build an Odoo WhatsApp exception process for failed messages, template problems and missed replies with clear ownership and controlled retry decisions.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-whatsapp-failed-messages-escalation/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-whatsapp-failed-messages-escalation/</guid>
-      <pubDate>Tue, 03 Nov 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[WhatsApp]]></category>
-      <category><![CDATA[Integration]]></category>
-      <category><![CDATA[Support]]></category>
-      <category><![CDATA[Helpdesk]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
     </item>
   </channel>
 </rss>
