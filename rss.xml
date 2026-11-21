@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:56:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 13:20:40 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo Email Aliases: Separate New Requests from Replies]]></title>
+      <description><![CDATA[Review Odoo email alias routing, catchall replies and forwarded messages so new requests reach the right team and existing conversations stay connected.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-email-alias-reply-routing/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-email-alias-reply-routing/</guid>
+      <pubDate>Sat, 21 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Integration]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Setup]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Sign Evidence: Keep the Signed File and Completion Record]]></title>
+      <description><![CDATA[Review Odoo Sign completion evidence, signer authentication and document versions so the business can explain what was signed and by whom.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-sign-completion-evidence/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-sign-completion-evidence/</guid>
+      <pubDate>Sat, 21 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Documents Sharing: Review Links, Copies and Permissions]]></title>
+      <description><![CDATA[Review Odoo Documents sharing permissions, external links and copied files so collaborators receive the intended access to the correct document.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-documents-sharing-link-review/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-documents-sharing-link-review/</guid>
+      <pubDate>Sat, 21 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 19]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[Customer Management]]></category>
+      <category><![CDATA[Business Automation]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[ERP Implementation]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Staff Departures: Transfer Work and Review Access]]></title>
       <description><![CDATA[Plan Odoo staff departure handovers across open work, access rights, integration ownership and shared documents so responsibilities remain clear.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Inventory]]></category>
       <category><![CDATA[Accounting]]></category>
       <category><![CDATA[Supply Chain]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Vendor Bill Matching: Resolve Receipt and Price Exceptions]]></title>
-      <description><![CDATA[Review Odoo vendor bill exceptions by comparing the order, received quantities and supplier invoice before approving payment or correcting records.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-vendor-bill-matching-exceptions/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-vendor-bill-matching-exceptions/</guid>
-      <pubDate>Thu, 05 Nov 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Accounting]]></category>
-      <category><![CDATA[Invoicing]]></category>
-      <category><![CDATA[Finance]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Purchase Lead Times: Separate Plans from Supplier Promises]]></title>
-      <description><![CDATA[Use Odoo purchase lead times with supplier confirmations, receipt evidence and exception reviews so planned dates remain useful for operating decisions.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-purchase-lead-time-promises/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-purchase-lead-time-promises/</guid>
-      <pubDate>Wed, 04 Nov 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Supply Chain]]></category>
-      <category><![CDATA[Logistics]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Alternative RFQs: Compare the Offer Behind the Price]]></title>
-      <description><![CDATA[Compare alternative Odoo supplier quotations using consistent quantities, delivery promises, specification evidence and recorded award decisions.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-alternative-rfq-supplier-selection/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-alternative-rfq-supplier-selection/</guid>
-      <pubDate>Wed, 04 Nov 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Procurement]]></category>
-      <category><![CDATA[Supply Chain]]></category>
-      <category><![CDATA[SME]]></category>
     </item>
   </channel>
 </rss>
