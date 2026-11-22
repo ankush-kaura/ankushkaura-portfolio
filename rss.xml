@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 13:20:40 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 13:12:12 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo 20 Multi Branch Rollouts: Pilot the Process Before Expanding]]></title>
+      <description><![CDATA[Plan an Odoo rollout across branches with the right company structure, shared data rules, pilot evidence and local acceptance before each release wave.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-multi-branch-rollout-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-multi-branch-rollout-odoo-20/</guid>
+      <pubDate>Sun, 22 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[Multi-Company]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Implementation]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[SME]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo 20 Implementation Handover: Give the Operating Team What It Needs]]></title>
+      <description><![CDATA[Prepare an Odoo handover with account ownership, process decisions, support routes, known limitations and practical evidence that the team can operate it.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-implementation-handover-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-implementation-handover-odoo-20/</guid>
+      <pubDate>Sun, 22 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Implementation]]></category>
+      <category><![CDATA[Support]]></category>
+      <category><![CDATA[Project]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[SME]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Backups: Prove You Can Restore Business Operations for Odoo 20]]></title>
+      <description><![CDATA[Plan Odoo recovery around usable backups, matching application dependencies, isolated restoration and business checks that establish operational readiness.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-backup-restore-readiness-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-backup-restore-readiness-odoo-20/</guid>
+      <pubDate>Sun, 22 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Hosting]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[SME]]></category>
+      <category><![CDATA[Implementation]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo Email Aliases: Separate New Requests from Replies]]></title>
       <description><![CDATA[Review Odoo email alias routing, catchall replies and forwarded messages so new requests reach the right team and existing conversations stay connected.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Purchase]]></category>
       <category><![CDATA[Sales]]></category>
       <category><![CDATA[Logistics]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Vendor Price Updates: Avoid Duplicate and Incorrect Rates]]></title>
-      <description><![CDATA[Update Odoo vendor prices with stable identifiers, quantity tiers, approved source files and sample quotations that reveal incorrect or duplicate rates.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-vendor-price-import-revisions/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-vendor-price-import-revisions/</guid>
-      <pubDate>Fri, 06 Nov 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Data Import]]></category>
-      <category><![CDATA[Procurement]]></category>
-      <category><![CDATA[Finance]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Purchase Approvals: Define Authority Before Adding Steps]]></title>
-      <description><![CDATA[Design Odoo purchase approval boundaries around spending authority, exceptions, delegation and changed orders with evidence of who approved what.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-purchase-approval-boundaries/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-purchase-approval-boundaries/</guid>
-      <pubDate>Thu, 05 Nov 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Procurement]]></category>
-      <category><![CDATA[Security]]></category>
-      <category><![CDATA[ERP Implementation]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Supplier Returns: Follow the Goods Through to the Credit]]></title>
-      <description><![CDATA[Coordinate Odoo supplier returns with lot identity, dispatch evidence, replacement decisions and vendor credits so physical and financial records agree.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-supplier-return-credit-reconciliation/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-supplier-return-credit-reconciliation/</guid>
-      <pubDate>Thu, 05 Nov 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Accounting]]></category>
-      <category><![CDATA[Supply Chain]]></category>
     </item>
   </channel>
 </rss>
