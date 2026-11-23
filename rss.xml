@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 13:12:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:49:37 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo 20 Car Rentals: Handle Return Inspections and Damage Disputes]]></title>
+      <description><![CDATA[Plan car rental returns in Odoo with vehicle identity, inspection evidence, deposit review and repair ownership before closing the customer agreement.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-car-rental-return-damage-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-car-rental-return-damage-odoo-20/</guid>
+      <pubDate>Mon, 23 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[Rental]]></category>
+      <category><![CDATA[Fleet]]></category>
+      <category><![CDATA[Repairs]]></category>
+      <category><![CDATA[Sales]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo 20 Skincare Production: Control Formula and Label Revisions]]></title>
+      <description><![CDATA[Manage skincare formula and label changes with Odoo revision records, approvals, effective dates and production evidence without losing batch context.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-skincare-formula-label-revisions-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-skincare-formula-label-revisions-odoo-20/</guid>
+      <pubDate>Mon, 23 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[Manufacturing]]></category>
+      <category><![CDATA[PLM]]></category>
+      <category><![CDATA[Quality]]></category>
+      <category><![CDATA[Skincare]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo Food Traceability: Run a Practical Recall Drill for Odoo 20]]></title>
+      <description><![CDATA[Plan a food traceability drill in Odoo using lot records, stock movements, customer deliveries and reconciled quantities to expose gaps before an incident.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-food-recall-traceability-drill-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-food-recall-traceability-drill-odoo-20/</guid>
+      <pubDate>Mon, 23 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[Food and Beverage]]></category>
+      <category><![CDATA[Stock Control]]></category>
+      <category><![CDATA[Quality]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo 20 Multi Branch Rollouts: Pilot the Process Before Expanding]]></title>
       <description><![CDATA[Plan an Odoo rollout across branches with the right company structure, shared data rules, pilot evidence and local acceptance before each release wave.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Inventory]]></category>
       <category><![CDATA[Warehouse Management]]></category>
       <category><![CDATA[Purchase]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Expiry Dates: Separate Stock Rotation from Customer Shelf Life]]></title>
-      <description><![CDATA[Use Odoo lot dates and removal rules with customer shelf life requirements, receiving evidence and authorised exceptions before promising stock.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-expiry-removal-customer-shelf-life/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-expiry-removal-customer-shelf-life/</guid>
-      <pubDate>Sat, 07 Nov 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Food and Beverage]]></category>
-      <category><![CDATA[Stock Control]]></category>
-      <category><![CDATA[Supply Chain]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Subcontracting: Resolve Component Shortages Before Receipt]]></title>
-      <description><![CDATA[Control Odoo subcontracting shortages with component dispatch records, supplier confirmation and finished goods evidence before accepting receipts.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-subcontractor-component-shortages/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-subcontractor-component-shortages/</guid>
-      <pubDate>Fri, 06 Nov 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Subcontracting]]></category>
-      <category><![CDATA[Manufacturing]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Purchase]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Dropshipping: Handle Missing and Partial Deliveries]]></title>
-      <description><![CDATA[Manage Odoo dropship exceptions with supplier delivery evidence, partial quantities and customer communication before closing orders or settling claims.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-dropship-delivery-exceptions/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-dropship-delivery-exceptions/</guid>
-      <pubDate>Fri, 06 Nov 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Dropshipping]]></category>
-      <category><![CDATA[Purchase]]></category>
-      <category><![CDATA[Sales]]></category>
-      <category><![CDATA[Logistics]]></category>
     </item>
   </channel>
 </rss>
