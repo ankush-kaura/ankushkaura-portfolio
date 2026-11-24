@@ -6,7 +6,52 @@
     <link>https://www.ankushkaura.in</link>
     <atom:link href="https://www.ankushkaura.in/rss.xml" rel="self" type="application/rss+xml" />
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:49:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:41:23 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Odoo 20 Clinic Administration: Define Reception Access Carefully]]></title>
+      <description><![CDATA[Define Odoo reception access for healthcare, dental and veterinary administration with role boundaries, minimal data and practical permission reviews.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-clinic-reception-access-boundaries-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-clinic-reception-access-boundaries-odoo-20/</guid>
+      <pubDate>Tue, 24 Nov 2026 04:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[Healthcare]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Setup]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+      <category><![CDATA[SME]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo POS Refunds: Reconcile the Return, Payment and Stock for Odoo 20]]></title>
+      <description><![CDATA[Handle Odoo POS refunds with original order references, authorised return decisions and checks across stock, customer documents and payment settlement.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-pos-refunds-settlement-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-pos-refunds-settlement-odoo-20/</guid>
+      <pubDate>Tue, 24 Nov 2026 03:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[POS]]></category>
+      <category><![CDATA[Retail]]></category>
+      <category><![CDATA[Accounting]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Odoo 20 Helpdesk: Returns, Repairs and Warranty Work]]></title>
+      <description><![CDATA[How an Odoo 20 Helpdesk ticket starts a return, a repair order or a credit note, and why the Under Warranty box is a decision, not a check.]]></description>
+      <link>https://www.ankushkaura.in/blog/odoo-helpdesk-warranty-return-repair-odoo-20/</link>
+      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-helpdesk-warranty-return-repair-odoo-20/</guid>
+      <pubDate>Tue, 24 Nov 2026 02:30:00 GMT</pubDate>
+      <category><![CDATA[Odoo]]></category>
+      <category><![CDATA[Odoo 20]]></category>
+      <category><![CDATA[Helpdesk]]></category>
+      <category><![CDATA[Repairs]]></category>
+      <category><![CDATA[Support]]></category>
+      <category><![CDATA[Inventory]]></category>
+      <category><![CDATA[ERP]]></category>
+      <category><![CDATA[Best Practices]]></category>
+    </item>
     <item>
       <title><![CDATA[Odoo 20 Car Rentals: Handle Return Inspections and Damage Disputes]]></title>
       <description><![CDATA[Plan car rental returns in Odoo with vehicle identity, inspection evidence, deposit review and repair ownership before closing the customer agreement.]]></description>
@@ -711,51 +756,6 @@
       <category><![CDATA[Barcode]]></category>
       <category><![CDATA[Logistics]]></category>
       <category><![CDATA[Warehouse Management]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Putaway Capacity: Plan for Full and Unsuitable Locations]]></title>
-      <description><![CDATA[Use Odoo storage categories and putaway rules with accurate capacities and a clear overflow process when recommended locations cannot accept goods.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-putaway-capacity-overflow/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-putaway-capacity-overflow/</guid>
-      <pubDate>Sun, 08 Nov 2026 02:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Warehouse Management]]></category>
-      <category><![CDATA[Stock Control]]></category>
-      <category><![CDATA[Logistics]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Inventory Counts: Review Differences Before Applying Them]]></title>
-      <description><![CDATA[Review Odoo inventory count differences with clear cutoff timing, recount evidence, movement history and authorised adjustments before updating stock.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-inventory-count-variance-review/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-inventory-count-variance-review/</guid>
-      <pubDate>Sat, 07 Nov 2026 04:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Stock Control]]></category>
-      <category><![CDATA[Warehouse Management]]></category>
-      <category><![CDATA[Accounting]]></category>
-    </item>
-    <item>
-      <title><![CDATA[Odoo Barcode Receiving: Investigate Scans That Do Not Match]]></title>
-      <description><![CDATA[Resolve Odoo barcode receiving discrepancies by checking product identity, packaging quantities, lot data and the actual receipt before validation.]]></description>
-      <link>https://www.ankushkaura.in/blog/odoo-barcode-receiving-discrepancies/</link>
-      <guid isPermaLink="true">https://www.ankushkaura.in/blog/odoo-barcode-receiving-discrepancies/</guid>
-      <pubDate>Sat, 07 Nov 2026 03:30:00 GMT</pubDate>
-      <category><![CDATA[Odoo]]></category>
-      <category><![CDATA[Odoo 19]]></category>
-      <category><![CDATA[ERP]]></category>
-      <category><![CDATA[Best Practices]]></category>
-      <category><![CDATA[Barcode]]></category>
-      <category><![CDATA[Inventory]]></category>
-      <category><![CDATA[Warehouse Management]]></category>
-      <category><![CDATA[Purchase]]></category>
     </item>
   </channel>
 </rss>
